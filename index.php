@@ -10,30 +10,7 @@
          <script type="text/javascript">
             $( document ).ready(function() {
 
-                      $(".container").on('click',".ofcitems", function(e){
-                        e.preventDefault();
-                        var dataid = $(this).attr("data-desc");
-                        var data = {
-                        "parent": dataid
-                        };
-                         $.ajax({
-                          url: 'ajaxreq.php',
-                          type: 'post',
-                          data:data,
-                          success: function(data, status) {
-                            if(data) {
-                              $('#officecontainer').html(data);
-
-                            }
-                          },
-                          error: function(xhr, desc, err) {
-                            console.log(xhr);
-                            console.log("Details: " + desc + "\nError:" + err);
-                          }
-                        }); // end ajax call
-                        
-
-                    });
+                      
             });
          </script>
          <style>
