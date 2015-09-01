@@ -14,16 +14,7 @@
             });
          </script>
          <style>
-             .portfolio-item{
-                 background:#e4e4e4;
-                 padding:20px;
-                 height:100px;
-                 border :5px solid white;
-                 text-align: center;
-                 text-decoration: underline;
-                 font-weight: bolder;
-                 font-size: 30px;
-                }
+             s
 
          </style>
     </head>
