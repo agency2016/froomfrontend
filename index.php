@@ -1,69 +1,98 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Hello i am testsThere</title>
-        <script src="js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/main.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-         <link rel="stylesheet" type="text/css" href="css/main.css">
-         <script type="text/javascript">
-            $( document ).ready(function() {
+<html lang="en">
 
-                      
-            });
-         </script>
-         <style>
-             s
-
-         </style>
-    </head>
-    <body>
-        <div class="container" id="officecontainer">
-        <?php
-          $servername = "localhost";
-          $username = "root";
-          $password = "";
-          $dbname = "deltatest";
-
-          // Create connection
-          $conn = new mysqli($servername, $username, $password);
-
-          // Create connection
-          $conn = new mysqli($servername, $username, $password, $dbname);
-
-          // Check connection
-          if ($conn->connect_error) {
-              die("Connection failed: " . $conn->connect_error);
-          }
-          echo "Connected successfully"; 
-
-          /*$sql = "INSERT INTO users (uid,uname )
-          VALUES ('1', 'Y')";
-
-          if ($conn->query($sql) === TRUE) {
-              echo "New record created successfully";
-          } else {
-              echo "Error: " . $sql . "<br>" . $conn->error;
-          }
-          */
-
-          $sql = "SELECT* FROM users";
-          $result = $conn->query($sql);
-          if ($result->num_rows > 0) {
-              // output data of each row
-              while($row = $result->fetch_assoc()) {
-                  echo "id: " . $row["uid"]. " - Name: " . $row["uname"]."<br>";
-              }
-          } else {
-              echo "0 results";
-          }
-
-          $conn->close();
-?>
+<head>
 
 
+
+    <title>froom</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">  
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">F-ROOM</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-    </body>
-</html>
+        <!-- /.container -->
+    </nav>
 
+    <!-- Header Carousel -->
+    <header id="myCarousel" class="carousel slide">
+    <h1>Something different</h1>
+    </header>
+
+    <!-- Page Content -->
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">
+                    Welcome to fRoom
+                </h1>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+
+</body>
+
+</html>
