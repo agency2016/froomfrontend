@@ -53,68 +53,45 @@
     <body>
         <div class="container" id="officecontainer">
         <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "skype";
+          $servername = "localhost";
+          $username = "root";
+          $password = "";
+          $dbname = "deltatest";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+          // Create connection
+          $conn = new mysqli($servername, $username, $password);
 
-$sql = "SELECT * FROM t_offices";
-$result = $conn->query($sql);
-//$rows = $result->fetch_array(MYSQLI_NUM);
-$total = $result->num_rows;
-$data_per_row = 3;
-$total_rows = ceil($total/$data_per_row);
-$last_row = $total%$data_per_row;
-$index = 0;
-$span = 12/$data_per_row;
-$result_array = array();
-if ($result->num_rows > 0) {
-    // output data of each row
-    while($row = $result->fetch_assoc()) {
-      $result_array[$index] = $row;
-      $index++;
-    }
-} else {
-    echo "0 results";
-}
+          // Create connection
+          $conn = new mysqli($servername, $username, $password, $dbname);
 
-for($i= 0;$i<$total_rows;$i++){
-     echo ' <div class="row">';
-    if(($total_rows-1) == $i){
-     
-        for($j =0 ;$j<$last_row;$j++){
-            $row = $result_array[$i*$data_per_row+$j];
-           // echo($i*$data_per_row+$j);
-            echo ' <div class="col-md-'.$span.' portfolio-item"><a href="#" data-desc="'.$row["id"].'" class="ofcitems">'.$row["name"].'</a></div>';
-        }
-        for($j =0 ;$j<($data_per_row-$last_row);$j++){
-           echo ' <div class="col-md-'.$span.'"></div>';
-        }
-        
-    }
-    else{
-        
-        for($j =0 ;$j<$data_per_row;$j++){
-            //echo($i*$data_per_row+$j);
-              $row = $result_array[$i*$data_per_row+$j];
-              // echo($i*$data_per_row+$j);
-              echo ' <div class="col-md-'.$span.' portfolio-item" ><a href="#" data-desc="'.$row["id"].'" class="ofcitems">'.$row["name"].'</a></div>';
-        }
-       
-          
-    }
-    echo '</div>';
-}
+          // Check connection
+          if ($conn->connect_error) {
+              die("Connection failed: " . $conn->connect_error);
+          }
+          echo "Connected successfully"; 
 
+          /*$sql = "INSERT INTO users (uid,uname )
+          VALUES ('1', 'Y')";
 
-$conn->close();
+          if ($conn->query($sql) === TRUE) {
+              echo "New record created successfully";
+          } else {
+              echo "Error: " . $sql . "<br>" . $conn->error;
+          }
+          */
+
+          $sql = "SELECT* FROM users";
+          $result = $conn->query($sql);
+          if ($result->num_rows > 0) {
+              // output data of each row
+              while($row = $result->fetch_assoc()) {
+                  echo "id: " . $row["uid"]. " - Name: " . $row["uname"]."<br>";
+              }
+          } else {
+              echo "0 results";
+          }
+
+          $conn->close();
 ?>
 
 
