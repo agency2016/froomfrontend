@@ -87,6 +87,19 @@
             </div>
         </div>
 
+        <form class="col-sm-12" id="searchForm">
+            <div class="form-group col-sm-4 col-sm-offset-4">
+                <div class="input-group input-group-lg center-block">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="input-group-btn">
+                        <button type="submit" class="btn btn-default">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
         <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="icon-prev"></span>
