@@ -39,6 +39,7 @@ header.carousel .fill {
 #searchForm {
     position:absolute;
     top:40%;
+    /*text-align: center;*/
 }
 
 /* RESPONSIVE CSS
@@ -59,17 +60,16 @@ header.carousel .fill {
 
 .row-centered {
     text-align:center;
+    margin: auto;
 }
 .col-centered {
     display:inline-block;
     float:none;
     /* reset the text-align */
-    text-align:left;
+    text-align:center;
     /* inline-block space fix */
-    margin-right:-4px;
+
   }
-
-
 
 
 /* Navigation */

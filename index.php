@@ -12,6 +12,7 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -144,50 +145,34 @@
             </div>
         </div>
 
-<!--        <form class="col-sm-12" id="searchForm">
-           <div class="row row-centered">
-            <div class="form-group col-sm-6 col-centered">
-                <div class="input-group">
+        <form class="" id="searchForm">
+            <div class="row row-centered">    
+                <div class="col-xs-8 col-centered">
+                    <div class="input-group">
+                        <div class="input-group-btn search-panel">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                <span id="search_concept">Filter by</span> <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                              <li><a href="#contains">Contains</a></li>
+                              <li><a href="#its_equal">It's equal</a></li>
+                              <li><a href="#greather_than">Greather than ></a></li>
+                              <li><a href="#less_than">Less than < </a></li>
+                              <li class="divider"></li>
+                              <li><a href="#all">Anything</a></li>
+                            </ul>
+                        </div>
                     
-                    <input type="text" class="form-control" placeholder="Search for...">
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
-                    </span>
-                </div>
-            </div>
-            </div>
-        </form> 
- -->
-             <form class="col-sm-12 form-inline" id="searchForm">
-            <div class="form-group col-sm-6 col-sm-offset-4">
-            <select id="selectUser" style="width:auto;" class="form-control col-md-4">
-                        <option class="">One</option>
-                        <option class="">Two</option>
-                        <option class="">Three</option>
-             </select>
-              <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search for...">
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
-                    </span>
+                        <input type="hidden" name="search_param" value="all" id="search_param">         
+                        <input type="text" class="form-control" name="x" placeholder="Search term...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                        </span>
+                    </div>
                 </div>
             </div>
         </form> 
 
-
-<!--         <form role="form" class="form-inline col-sm-12" id="searchForm">  
-            <div class="form-group col-sm-4 col-sm-offset-4">
-                <select id="selectUser" style="width:auto;" class="form-control selectWidth">
-                    <option class="">One</option>
-                    <option class="">Two</option>
-                    <option class="">Three</option>
-                </select>
-      <div class="btn-group">
-        <input type="text" class="form-control" placeholder="Search for...">
-      </div>
-        <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
-      </div>
-      </form> -->
 
         <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -229,6 +214,22 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+
+//search bar dropdown menu load
+$(document).ready(function(e){
+    $('.search-panel .dropdown-menu').find('a').click(function(e) {
+        e.preventDefault();
+        var param = $(this).attr("href").replace("#","");
+        var concept = $(this).text();
+        $('.search-panel span#search_concept').text(concept);
+        $('.input-group #search_param').val(param);
+    });
+});
+
+
+</script>
 
 </body>
 
