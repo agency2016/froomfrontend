@@ -39,7 +39,8 @@ header.carousel .fill {
 #searchForm {
     position:absolute;
     top:40%;
-    /*text-align: center;*/
+    background-color: rgb(30,24,14);
+
 }
 
 /* RESPONSIVE CSS
