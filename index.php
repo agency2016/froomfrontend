@@ -74,14 +74,14 @@
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Two');"></div>
-                <div class="carousel-caption">
+                <div class="fill" style="background-image:url('http://img09.deviantart.net/109c/i/2013/068/e/b/diana_wallpaper__right__by_yalestewart-d5xj3kw.png');"></div>
+                    <div class="carousel-caption">
                     <h2>Caption 2</h2>
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
-                <div class="carousel-caption">
+                <div class="fill" style="background-image:url('img/superman.png');"></div>
+                    <div class="carousel-caption">
                     <h2>Caption 3</h2>
                 </div>
             </div>
@@ -89,13 +89,11 @@
 
         <form class="col-sm-12" id="searchForm">
             <div class="form-group col-sm-4 col-sm-offset-4">
-                <div class="input-group input-group-lg center-block">
-                    <input type="text" class="form-control" placeholder="Search">
-                    <div class="input-group-btn">
-                        <button type="submit" class="btn btn-default">
-                            <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                    </div>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                    </span>
                 </div>
             </div>
         </form>
