@@ -144,172 +144,82 @@
                     </div> -->
             </div>
         </div>
-<div id="searchForm">
-        <form class="">
-            <div class="row row-centered">    
-                <div class="col-xs-8 col-centered">
-                    <div class="input-group">
-                        <div class="input-group-btn search-panel">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                <span id="search_concept">Filter by</span> <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu" role="menu">
-                              <li><a href="#contains">Contains</a></li>
-                              <li><a href="#its_equal">It's equal</a></li>
-                              <li><a href="#greather_than">Greather than ></a></li>
-                              <li><a href="#less_than">Less than < </a></li>
-                              <li class="divider"></li>
-                              <li><a href="#all">Anything</a></li>
-                            </ul>
+
+<div class="panel panel-default">
+    <div class="panel-body">
+                                   
+        <div id="searchForm">
+                <form class="">
+                    <div class="row row-centered">    
+                        <div class="col-xs-8 col-centered">
+                            <div class="input-group">
+                                <div class="input-group-btn search-panel">
+                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                        <span id="search_concept">Filter by</span> <span class="caret"></span>
+                                    </button>
+                                    <ul class="dropdown-menu" role="menu">
+                                      <li><a href="#contains">Contains</a></li>
+                                      <li><a href="#its_equal">It's equal</a></li>
+                                      <li><a href="#greather_than">Greather than ></a></li>
+                                      <li><a href="#less_than">Less than < </a></li>
+                                      <li class="divider"></li>
+                                      <li><a href="#all">Anything</a></li>
+                                    </ul>
+                                </div>
+                            
+                                <input type="text" class="form-control" name="x" placeholder="Search term...">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                                </span>
+                            </div>
                         </div>
-                    
-                        <input type="text" class="form-control" name="x" placeholder="Search term...">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-                        </span>
                     </div>
-                </div>
-        </div>
-            <div class="row row-centered"> 
-            <div class="col-xs-2 col-centered">
-
-            <input class="form-control" id="ex1" type="text">
-            </div>
-            <div class="col-xs-2 col-centered">
-
-            <input class="form-control" id="ex2" type="text">
-            </div>
-            <div class="col-xs-2 col-centered">
-
-            <input class="form-control" id="ex3" type="text">
-            </div>
-
-            </div>
-        </form> 
-        </div>
-
-
-<!-- 
-
-<div id="searchbox">
- 
-<div id="searchformbox">
-
-  <div id="searchformboxin">
-
-    <div class="yui-skin-sam">
-      <div id="searchboxnav" class="yui-navset">
-
-        <div class="yui-content">
-
-          <div id="tab_homesforsale">
-
-          <div id="forsalesearchbox">
-            
-            <form action="/homes/for-sale/search/locate?src=hp" name="homesearch" method="POST" onsubmit="return submitForm(document.homesearch)">
-
-                <div class="main-key-search">
-                  
-                  <div id="searchformlocbox" class="yui-skin-sam form-std yui-ac">
-                    <input autocomplete="off" class="searchformlocfld form-std--large-input form-std--search js-placeholder yui-ac-input" id="autocomplete_hp" name="location" size="46" placeholder="Type a city and state or zip code" value="" type="text">
-                    <div id="autocomplete_choices_hp" class="autocompfield yui-ac-container"><div style="display: none;" class="yui-ac-content"><div style="display: none;" class="yui-ac-hd"></div><div class="yui-ac-bd"><ul><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li><li style="display: none;"></li></ul></div><div style="display: none;" class="yui-ac-ft"></div></div></div>
                     
-                  </div>
-                  <div id="searchformbtn">
+                    <div class="row row-centered"> 
+                    <div class="dropdown col-xs-2 col-centered">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">test 1
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+                          <li role="presentation" class="divider"></li>
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+                        </ul>
+                      </div>
+
+                    <div class="dropdown col-xs-2 col-centered">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">test 1
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+                          <li role="presentation" class="divider"></li>
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+                        </ul>
+                      </div>
                     
-                    <button type="submit" name="submitbtn" value="Search" class="btn-primary btn-primary--input btn-primary--search">
-                      <i class="f-icon f-icon-mob-search font-17"></i> <span class="ml-5">Search</span>
-                    </button>
-                  </div>
-                  
+                    
+                    <div class="dropdown col-xs-2 col-centered">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">test 1
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+                          <li role="presentation" class="divider"></li>
+                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
+                        </ul>
+                      </div>
 
-                </div>
-
-                <div id="searchformaddbox">
-
-                  <span id="firstSearchFilter">
-                    <label class="searchformprice">Price From</label>
-                    <select name="listing_price_min">
-                      <option value="">Any</option>
-                      
-                      <option value="50000">$50,000</option>
-                      
-                      <option value="75000">$75,000</option>
-                      
-
-                      
-                    </select>
-                  </span>
-
-                  <span style="padding:0 15px 0 0">
-                    <label style="padding-right:5px">To</label>
-                    <select name="listing_price_max">
-                      <option value="">Any</option>
-                      
-                      <option value="50000">$50,000</option>
-                      
-                      <option value="75000">$75,000</option>
-                      
-
-                      
-                    </select>
-                  </span>
-
-                  <span style="padding-right:15px">
-                    <label class="searchformbbs">Beds</label>
-                    <select name="min_bedrooms">
-                      <option value="">Any</option>
-                      
-                      <option value="1">1+</option>
-                      
-      
-                      
-                    </select>
-                  </span>
-
-                  <span style="">
-                    <label class="searchformbbs">Baths</label>
-                    <select name="min_full_baths">
-                      <option value="">Any</option>
-                      
-                      <option value="1">1+</option>
-
-                    </select>
-                  </span>
-
-                </div>
-                
-              </form>
-
-            </div>
-          </div>
+                    </div>
 
 
+                </form> 
         </div>
-      </div>
     </div>
-
-
-  </div>
-</div><
-
-
-
-      </div>
-
- -->
-
-
-
-
-
-
-
-
-
-
-
-
+</div>
 
 
         <!-- Controls -->
