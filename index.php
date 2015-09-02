@@ -68,22 +68,22 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide One');"></div>
-                <div class="carousel-caption">
+                <div class="fill" style="background-image:url('img/flash.jpg');"></div>
+                <!-- <div class="carousel-caption">
                     <h2>Caption 1</h2>
-                </div>
+                </div> -->
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('http://img09.deviantart.net/109c/i/2013/068/e/b/diana_wallpaper__right__by_yalestewart-d5xj3kw.png');"></div>
-                    <div class="carousel-caption">
-                    <h2>Caption 2</h2>
-                </div>
+                <div class="fill" style="background-image:url('img/superman.jpg');"></div>
+                    <!-- <div class="carousel-caption">
+                        <h2>Caption 2</h2>
+                    </div> -->
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('img/superman.png');"></div>
-                    <div class="carousel-caption">
-                    <h2>Caption 3</h2>
-                </div>
+                <div class="fill" style="background-image:url('img/gl.png');"></div>
+                    <!-- <div class="carousel-caption">
+                        <h2>Caption 3</h2>
+                    </div> -->
             </div>
         </div>
 
