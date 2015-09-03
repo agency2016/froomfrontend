@@ -6,7 +6,9 @@ body {
 body {
     padding-top: 50px;
 }
-
+a,a:hover{
+ color: #e08026; 
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -146,10 +148,6 @@ header.carousel .fill {
 }
 
 
-
-
-
-
 .carousel{
   margin-top: 5px;
 }
@@ -186,6 +184,9 @@ header.carousel .fill {
   color: #FFFFFF !important;
 }
 
+input#cbox{
+  /*background-color: #e08026;*/
+}
 
 .navbar-2{
   margin-bottom: -5px;

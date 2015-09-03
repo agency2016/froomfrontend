@@ -55,9 +55,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                                        <button type="submit" class="btn btn-warning btn-block">Sign in</button>
                                     </div>
-                                    <div class="checkbox">
+                                    <div class="checkbox" id="cbox">
                                         <label>
                                             <input type="checkbox"> keep me logged-in
                                         </label>
@@ -347,6 +347,10 @@
             <div class="col-md-6 social-icons">
                 <a class="social-roll" href="#"><img src="img/facebook.png" alt="facebook.png"></a>
                 <a class="social-roll" href="#"><img src="img/twitter.png" alt="twitter.png"></a>
+                <a class="social-roll" href="#"><img src="img/google+.png" alt="google+.png"></a>
+                <a class="social-roll" href="#"><img src="img/instagram.png" alt="instagram.png"></a>
+                <a class="social-roll" href="#"><img src="img/pinterest.png" alt="pinterest.png"></a>
+
             </div>
         </div>
    </div>
