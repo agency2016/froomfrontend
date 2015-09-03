@@ -13,6 +13,9 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -153,10 +156,10 @@
         <div class="col-md-12 col-xs-12" style="margin-bottom: 10px;">
             <div class="input-group">
                 <div class="input-group-btn search-panel">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
                         <span id="search_concept">Filter by</span> <span class="caret"></span>
                     </button>
-                    <ul class="dropdown-menu" role="menu">
+                    <ul class="dropdown-menu scrollable-menu" role="menu">
                       <li><a href="#contains">Contains</a></li>
                       <li><a href="#its_equal">It's equal</a></li>
                       <li><a href="#greather_than">Greather than ></a></li>
@@ -172,23 +175,24 @@
             </div>
         </div>
     </div>
-<div class="row centered">
-            <div class="dropdown col-md-3 col-lg-3">
-                <label>Button</label>
-                <button class="btn btn-default dropdown-toggle" type="button" id="menu" data-toggle="dropdown">test 1
-                <span class="caret"></span></button>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="menu">
+
+    <div class="row centered">
+            <div class="input-btn-group col-md-3 col-lg-3 dropdown search-panel1">
+                <button class="btn btn-block btn-warning dropdown-toggle" type="button" id="menu" data-toggle="dropdown">
+                <span id="search_concept1">Select Min price</span> <span class="caret"></span></button>
+                <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="menu">
                   <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
                   <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
                   <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
                   <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
                 </ul>
             </div>
-            <div class="dropdown col-md-3 col-lg-3">
-                <label>Button</label>
-                <button class="btn btn-default dropdown-toggle" type="button" id="menu" data-toggle="dropdown">test 1
-                <span class="caret"></span></button>
-                <ul class="dropdown-menu" aria-labelledby="menu">
+
+
+            <div class="input-btn-group col-md-3 col-lg-3 dropdown search-panel2">
+                <button class="btn btn-block btn-warning dropdown-toggle" type="button" id="menu" data-toggle="dropdown">
+                <span id="search_concept2">Select Max price</span> <span class="caret"></span></button>
+                <ul class="dropdown-menu scrollable-menu" aria-labelledby="menu">
                   <li role="presentation"><a href="#">HTML</a></li>
                   <li role="presentation"><a href="#">CSS</a></li>
                   <li role="presentation"><a href="#">JavaScript</a></li>
@@ -197,23 +201,58 @@
             </div>
     
             
-            <div class="dropdown col-md-3 col-lg-3 ">
-                <label>Button</label>
-                <button class="btn btn-default dropdown-toggle" type="button" id="menu" data-toggle="dropdown">test 1
-                <span class="caret"></span></button>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="menu">
+            <div class="input-btn-group col-md-3 col-lg-3 dropdown search-panel3">
+                <button class="btn btn-block btn-warning dropdown-toggle" type="button" id="menu" data-toggle="dropdown">
+                <span id="search_concept3">Beds</span> <span class="caret"></span></button>
+                <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="menu">
                   <li role="presentation"><a href="#">HTML</a></li>
                   <li role="presentation"><a href="#">CSS</a></li>
                   <li role="presentation"><a href="#">JavaScript</a></li>
                   <li role="presentation"><a href="#">About Us</a></li>
+                  <li role="presentation"><a href="#">HTML</a></li>
+                  <li role="presentation"><a href="#">CSS</a></li>
+                  <li role="presentation"><a href="#">JavaScript</a></li>
+                  <li role="presentation"><a href="#">About Us</a></li>
+                  <li role="presentation"><a href="#">HTML</a></li>
+                  <li role="presentation"><a href="#">CSS</a></li>
+                  <li role="presentation"><a href="#">JavaScript</a></li>
+                  <li role="presentation"><a href="#">About Us</a></li>
+                  <li role="presentation"><a href="#">HTML</a></li>
+                  <li role="presentation"><a href="#">CSS</a></li>
+                  <li role="presentation"><a href="#">JavaScript</a></li>
+                  <li role="presentation"><a href="#">About Us</a></li>
+                  <li role="presentation"><a href="#">HTML</a></li>
+                  <li role="presentation"><a href="#">CSS</a></li>
+                  <li role="presentation"><a href="#">JavaScript</a></li>
+                  <li role="presentation"><a href="#">About Us</a></li>
+                  <li role="presentation"><a href="#">HTML</a></li>
+                  <li role="presentation"><a href="#">CSS</a></li>
+                  <li role="presentation"><a href="#">JavaScript</a></li>
+                  <li role="presentation"><a href="#">About Us</a></li>
+                  <li role="presentation"><a href="#">HTML</a></li>
+                  <li role="presentation"><a href="#">CSS</a></li>
+                  <li role="presentation"><a href="#">JavaScript</a></li>
+                  <li role="presentation"><a href="#">About Us</a></li>
+                  <li role="presentation"><a href="#">HTML</a></li>
+                  <li role="presentation"><a href="#">CSS</a></li>
+                  <li role="presentation"><a href="#">JavaScript</a></li>
+                  <li role="presentation"><a href="#">About Us</a></li>
+                  <li role="presentation"><a href="#">HTML</a></li>
+                  <li role="presentation"><a href="#">CSS</a></li>
+                  <li role="presentation"><a href="#">JavaScript</a></li>
+                  <li role="presentation"><a href="#">About Us</a></li>
+                  <li role="presentation"><a href="#">HTML</a></li>
+                  <li role="presentation"><a href="#">CSS</a></li>
+                  <li role="presentation"><a href="#">JavaScript</a></li>
+                  <li role="presentation"><a href="#">About Us</a></li>
+
                 </ul>
               </div>
               
-            <div class="dropdown col-md-3 col-lg-3">
-                <label>Button</label>
-                <button class="btn btn-default dropdown-toggle" type="button" id="menu" data-toggle="dropdown">test 1
-                <span class="caret"></span></button>
-                <ul class="dropdown-menu" role="menu" aria-labelledby="menu">
+            <div class="input-btn-group col-md-3 col-lg-3 dropdown search-panel4">
+                <button class="btn btn-block btn-warning dropdown-toggle" type="button" id="menu" data-toggle="dropdown">
+                <span id="search_concept4">something else</span> <span class="caret"></span></button>
+                <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="menu">
                     <li role="presentation"><a href="#">HTML</a></li>
                     <li role="presentation"><a href="#">CSS</a></li>
                     <li role="presentation"><a href="#">JavaScript</a></li>
@@ -332,6 +371,50 @@ $(document).ready(function(e){
     });
 });
 
+
+
+$(document).ready(function(e){
+    $('.search-panel1 .dropdown-menu').find('a').click(function(e) {
+        e.preventDefault();
+        var param = $(this).attr("href").replace("#","");
+        var concept = $(this).text();
+        $('.search-panel1 span#search_concept1').text(concept);
+        $('.input-group #search_param').val(param);
+    });
+});
+
+
+$(document).ready(function(e){
+    $('.search-panel2 .dropdown-menu').find('a').click(function(e) {
+        e.preventDefault();
+        var param = $(this).attr("href").replace("#","");
+        var concept = $(this).text();
+        $('.search-panel2 span#search_concept2').text(concept);
+        $('.input-group #search_param').val(param);
+    });
+});
+
+
+$(document).ready(function(e){
+    $('.search-panel3 .dropdown-menu').find('a').click(function(e) {
+        e.preventDefault();
+        var param = $(this).attr("href").replace("#","");
+        var concept = $(this).text();
+        $('.search-panel3 span#search_concept3').text(concept);
+        $('.input-group #search_param').val(param);
+    });
+});
+
+
+$(document).ready(function(e){
+    $('.search-panel4 .dropdown-menu').find('a').click(function(e) {
+        e.preventDefault();
+        var param = $(this).attr("href").replace("#","");
+        var concept = $(this).text();
+        $('.search-panel4 span#search_concept4').text(concept);
+        $('.input-group #search_param').val(param);
+    });
+});
 
 </script>
 

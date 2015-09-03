@@ -29,14 +29,6 @@ header.carousel .fill {
     background-size: cover;
 }
 
-#searchForm {
-    position:absolute;
-    top:40%;
-    left: 50%;
-    padding-left: 0px;
-    margin-left: -30%;
-    text-align: center;
-}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -96,7 +88,7 @@ header.carousel .fill {
     color: rgba(252, 252, 252, 1);
     background-color: rgba(250, 159, 85, 1);
 }
-
+/*
 .navbar-default .navbar-nav > li > .dropdown-menu {
   background-color: #e67e22;
 }
@@ -114,6 +106,13 @@ header.carousel .fill {
 
 .navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
     background-color: #e67e22;
+}*/
+
+
+.dropdown-menu { background-color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { 
+  background-color: #e08026;
+  color: #fff;
 }
 
 .navbar-default .navbar-nav > .active > a, 
@@ -176,16 +175,22 @@ header.carousel .fill {
 
 /*custom navbar */
 
-.navbar-1{
-/*background-color: #fff;*/
-
+.navbar-brand{
+   font-family: 'Dancing Script', Georgia, Times, serif;
+    font-size: 40px;
+    line-height: 35px;
+    color: #e08026 !important;
 }
+
+.navbar-brand:hover{
+  color: #FFFFFF !important;
+}
+
 
 .navbar-2{
   margin-bottom: -5px;
   overflow-x: hidden;
 }
-
 
 
 #login-dp{
@@ -228,6 +233,7 @@ header.carousel .fill {
     color: #fff;
     background-color:#59b5fa;
 }
+
 @media(max-width:768px){
     #login-dp{
         background-color: inherit;
@@ -240,15 +246,53 @@ header.carousel .fill {
 }
 
 
-/*FOOTER*/
+/*search bar*/
 
-footer {
-    /*margin: 50px 0;*/
-    /*background-color: #111;*/
-    background: #e08026 none repeat scroll 0% 0%;
-    color: #fff;
+
+#searchForm {
+
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    top: 30%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0px;
+    margin-left: -30%;
+    text-align: center;
+    list-style: outside none none;
+}
+
+.dropdown{
+  margin-bottom: 10px;
 
 }
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+
+.btn-warning {
+  background-color: #e08026;
+  border-color: #e08026;
+  color: #FFFFFF;
+}
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active {
+  background-color: #cf731e;
+  border-color: #b9671a;
+    color: #FFFFFF;
+
+}
+
+
+
+/*FOOTER*/
 
 
 .footer-bottom {
