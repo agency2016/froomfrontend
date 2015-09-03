@@ -177,8 +177,8 @@ header.carousel .fill {
 
 .navbar-brand{
    font-family: 'Dancing Script', Georgia, Times, serif;
-    font-size: 40px;
-    line-height: 35px;
+    font-size: 35px;
+    line-height: 25px;
     color: #e08026 !important;
 }
 
@@ -262,6 +262,13 @@ header.carousel .fill {
     text-align: center;
     list-style: outside none none;
 }
+
+
+.form-control:focus {
+  border-color: #e08026;
+  box-shadow: 0px 1px 1px rgb(224,128,38) inset, 0px 0px 8px rgb(224,128,38);
+}
+
 
 .dropdown{
   margin-bottom: 10px;
