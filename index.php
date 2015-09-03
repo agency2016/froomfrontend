@@ -18,10 +18,10 @@
 <body>
 
 <!-- 1st navigation -->
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-1" role="navigation">
+    <div class="container">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -30,7 +30,7 @@
             <a class="navbar-brand" href="#">F-ROOM</a>
         </div>
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
             <li><p class="navbar-text">Already have an account?</p></li>
             <li class="dropdown">
@@ -74,188 +74,244 @@
 </nav>
 
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-static-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- <a class="navbar-brand" href="#">F-ROOM</a> -->
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-static-top navbar-2" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <!-- <a class="navbar-brand" href="#">F-ROOM</a> -->
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-2">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
 
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+<!-- Header Carousel -->
+<header id="myCarousel" class="carousel slide">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="fill" style="background-image:url('img/flash.jpg');"></div>
+            <!-- <div class="carousel-caption">
+                <h2>Caption 1</h2>
+            </div> -->
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('img/superman.jpg');"></div>
+                <!-- <div class="carousel-caption">
+                    <h2>Caption 2</h2>
+                </div> -->
+        </div>
+        <div class="item">
+            <div class="fill" style="background-image:url('img/gl.png');"></div>
+                <!-- <div class="carousel-caption">
+                    <h2>Caption 3</h2>
+                </div> -->
+        </div>
+    </div>
+
+<!-- search n filter bar -->
+                                   
+<div class="container" id="searchForm">
+    <div class="row centered">    
+        
+        <div class="col-md-12 col-xs-12" style="margin-bottom: 10px;">
+            <div class="input-group">
+                <div class="input-group-btn search-panel">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        <span id="search_concept">Filter by</span> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#contains">Contains</a></li>
+                      <li><a href="#its_equal">It's equal</a></li>
+                      <li><a href="#greather_than">Greather than ></a></li>
+                      <li><a href="#less_than">Less than < </a></li>
+                      <li><a href="#all">Anything</a></li>
+                    </ul>
+                </div>
+            
+                <input type="text" class="form-control" name="x" placeholder="Search term...">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+            </div>
+        </div>
+    </div>
+<div class="row centered">
+            <div class="dropdown col-md-3 col-lg-3">
+                <label>Button</label>
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu" data-toggle="dropdown">test 1
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu">
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
+                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-
-    <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill" style="background-image:url('img/flash.jpg');"></div>
-                <!-- <div class="carousel-caption">
-                    <h2>Caption 1</h2>
-                </div> -->
+            <div class="dropdown col-md-3 col-lg-3">
+                <label>Button</label>
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu" data-toggle="dropdown">test 1
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu" aria-labelledby="menu">
+                  <li role="presentation"><a href="#">HTML</a></li>
+                  <li role="presentation"><a href="#">CSS</a></li>
+                  <li role="presentation"><a href="#">JavaScript</a></li>
+                  <li role="presentation"><a href="#">About Us</a></li>
+                </ul>
             </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('img/superman.jpg');"></div>
-                    <!-- <div class="carousel-caption">
-                        <h2>Caption 2</h2>
-                    </div> -->
+    
+            
+            <div class="dropdown col-md-3 col-lg-3 ">
+                <label>Button</label>
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu" data-toggle="dropdown">test 1
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu">
+                  <li role="presentation"><a href="#">HTML</a></li>
+                  <li role="presentation"><a href="#">CSS</a></li>
+                  <li role="presentation"><a href="#">JavaScript</a></li>
+                  <li role="presentation"><a href="#">About Us</a></li>
+                </ul>
+              </div>
+              
+            <div class="dropdown col-md-3 col-lg-3">
+                <label>Button</label>
+                <button class="btn btn-default dropdown-toggle" type="button" id="menu" data-toggle="dropdown">test 1
+                <span class="caret"></span></button>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="menu">
+                    <li role="presentation"><a href="#">HTML</a></li>
+                    <li role="presentation"><a href="#">CSS</a></li>
+                    <li role="presentation"><a href="#">JavaScript</a></li>
+                    <li role="presentation"><a href="#">About Us</a></li>
+                </ul>
             </div>
-            <div class="item">
-                <div class="fill" style="background-image:url('img/gl.png');"></div>
-                    <!-- <div class="carousel-caption">
-                        <h2>Caption 3</h2>
-                    </div> -->
-            </div>
-        </div>
-
-<div class="panel panel-default">
-    <div class="panel-body">
-                                   
-        <div id="searchForm">
-                <form class="">
-                    <div class="row row-centered">    
-                        <div class="col-xs-8 col-centered">
-                            <div class="input-group">
-                                <div class="input-group-btn search-panel">
-                                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                        <span id="search_concept">Filter by</span> <span class="caret"></span>
-                                    </button>
-                                    <ul class="dropdown-menu" role="menu">
-                                      <li><a href="#contains">Contains</a></li>
-                                      <li><a href="#its_equal">It's equal</a></li>
-                                      <li><a href="#greather_than">Greather than ></a></li>
-                                      <li><a href="#less_than">Less than < </a></li>
-                                      <li class="divider"></li>
-                                      <li><a href="#all">Anything</a></li>
-                                    </ul>
-                                </div>
-                            
-                                <input type="text" class="form-control" name="x" placeholder="Search term...">
-                                <span class="input-group-btn">
-                                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="row row-centered"> 
-                    <div class="dropdown col-xs-2 col-centered">
-                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">test 1
-                        <span class="caret"></span></button>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
-                          <li role="presentation" class="divider"></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
-                        </ul>
-                      </div>
-
-                    <div class="dropdown col-xs-2 col-centered">
-                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">test 1
-                        <span class="caret"></span></button>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
-                          <li role="presentation" class="divider"></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
-                        </ul>
-                      </div>
-                    
-                    
-                    <div class="dropdown col-xs-2 col-centered">
-                        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">test 1
-                        <span class="caret"></span></button>
-                        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
-                          <li role="presentation" class="divider"></li>
-                          <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
-                        </ul>
-                      </div>
-
-                    </div>
-
-
-                </form> 
-        </div>
     </div>
 </div>
 
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </header>
+
+<!-- /. search n filter bar -->
+
+
+<!-- Controls -->
+<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="icon-prev"></span>
+</a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="icon-next"></span>
+</a>
+</header>
     <!-- /. Header Carousel -->
 
     <!-- Page Content -->
-    <div class="container">
-        <hr>
-        <!-- row -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">
-                    Welcome to fRoom
-                </h1>
+<div class="container">
+    <hr>
+    <!-- row -->
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="">
+                Welcome to fRoom
+            </h1>
+            <p>
+                lsdhasldhlasdhlasgdlashdlahsldhalsflcabldbal
+                asldnalsdnlansdlnasldnalsndklasbflabd lfbalbdfasl
+                lsdhasldhlasdhlasgdlashdlahsldhalsflcabldbal
+                asldnalsdnlansdlnasldnalsndklasbflabd lfbalbdfasllsdhasldhlasdhlasgdlashdlahsldhalsflcabldbal
+                asldnalsdnlansdlnasldnalsndklasbflabd lfbalbdfasl
+                lsdhasldhlasdhlasgdlashdlahsldhalsflcabldbal
+                asldnalsdnlansdlnasldnalsndklasbflabd lfbalbdfasl
+                lsdhasldhlasdhlasgdlashdlahsldhalsflcabldbal
+                asldnalsdnlansdlnasldnalsndklasbflabd lfbalbdfasl
+                lsdhasldhlasdhlasgdlashdlahsldhalsflcabldbal
+                asldnalsdnlansdlnasldnalsndklasbflabd lfbalbdfasl
+                
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h1 class="">
+                Welcome to fRoom
+            </h1>
+            <p>
+                lsdhasldhlasdhlasgdlashdlahsldhalsflcabldbal
+                asldnalsdnlansdlnasldnalsndklasbflabd lfbalbdfasl
+                lsdhasldhlasdhlasgdlashdlahsldhalsflcabldbal
+                asldnalsdnlansdlnasldnalsndklasbflabd lfbalbdfasllsdhasldhlasdhlasgdlashdlahsldhalsflcabldbal
+                asldnalsdnlansdlnasldnalsndklasbflabd lfbalbdfasl
+                lsdhasldhlasdhlasgdlashdlahsldhalsflcabldbal
+                asldnalsdnlansdlnasldnalsndklasbflabd lfbalbdfasl
+                lsdhasldhlasdhlasgdlashdlahsldhalsflcabldbal
+                asldnalsdnlansdlnasldnalsndklasbflabd lfbalbdfasl
+                lsdhasldhlasdhlasgdlashdlahsldhalsflcabldbal
+                asldnalsdnlansdlnasldnalsndklasbflabd lfbalbdfasl
+
+            </p>
+        </div>
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+<!-- /.Page Content -->
+
+<!-- Footer -->
+<!-- <footer>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 copy">
+            <p>Copyright &copy; Agency Delta 2015</p>
+        </div>
+        <div class="col-md-6 social-icons">
+            <a class="social-roll" href="#"><img src="img/facebook.png" alt="facebook.png"></a>
+            <a class="social-roll" href="#"><img src="img/twitter.png" alt="twitter.png"></a>
+        </div>
+    </div>
+    </div>
+</footer> -->
+  <div class="footer-bottom navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 copy"><p>&copy; 2015 All rights reserved</p></div>
+            <div class="col-md-6 social-icons">
+                <a class="social-roll" href="#"><img src="img/facebook.png" alt="facebook.png"></a>
+                <a class="social-roll" href="#"><img src="img/twitter.png" alt="twitter.png"></a>
             </div>
         </div>
-        <!-- /.row -->
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Agency Delta 2015</p>
-                </div>
-            </div>
-        </footer>
-
-    </div>
-    <!-- /.container -->
+   </div>
+</div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>

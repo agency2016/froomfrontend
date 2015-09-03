@@ -8,13 +8,6 @@ body {
 }
 
 
-/* Footer Styles */
-
-footer {
-    margin: 50px 0;
-}
-
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -39,10 +32,10 @@ header.carousel .fill {
 #searchForm {
     position:absolute;
     top:40%;
-    /*background-color: rgb(30,24,14);*/
-   /* width: 100%;
-    z-index: 5;
-*/
+    left: 50%;
+    padding-left: 0px;
+    margin-left: -30%;
+    text-align: center;
 }
 
 /* RESPONSIVE CSS
@@ -60,19 +53,12 @@ header.carousel .fill {
   }
 }
 
-
-.row-centered {
-    text-align:center;
-    margin: auto;
+.centered {
+  text-align: center;
+  color: #fff;
 }
-.col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:center;
-    /* inline-block space fix */
 
-  }
+
 
 
 /* Navigation */
@@ -161,6 +147,10 @@ header.carousel .fill {
 }
 
 
+
+
+
+
 .carousel{
   margin-top: 5px;
 }
@@ -180,6 +170,22 @@ header.carousel .fill {
     background-color: #ff6500;
   }
 }
+
+
+
+
+/*custom navbar */
+
+.navbar-1{
+/*background-color: #fff;*/
+
+}
+
+.navbar-2{
+  margin-bottom: -5px;
+  overflow-x: hidden;
+}
+
 
 
 #login-dp{
@@ -233,6 +239,39 @@ header.carousel .fill {
     }
 }
 
-/*.selectWidth {
-  width:auto !important;
-}*/
+
+/*FOOTER*/
+
+footer {
+    /*margin: 50px 0;*/
+    /*background-color: #111;*/
+    background: #e08026 none repeat scroll 0% 0%;
+    color: #fff;
+
+}
+
+
+.footer-bottom {
+    background: rgba(224, 128, 38, 1)  none repeat scroll 0% 0%;
+    color: #111;
+
+}
+.social-icons {
+  padding-top: 10px;
+  text-align: right !important;
+}
+
+.copy {
+  padding-top: 20px;
+  float: left;
+}
+
+
+.social-roll {
+  margin: 10px;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
