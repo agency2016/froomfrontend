@@ -15,6 +15,7 @@
 
     <link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
 
 </head>
 
@@ -70,7 +71,7 @@
                 </li>
 
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Account</b> <span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> <span class="caret"></span></a>
                   <ul id="login-dp" class="dropdown-menu">
                     <li>
                         <div class="row">
@@ -133,7 +134,7 @@
             </div> -->
         </div>
         <div class="item">
-            <div class="fill" style="background-image:url('img/img2.jpg');"></div>
+            <div class="fill" style="background-image:url('img/img4.jpg');"></div>
                 <!-- <div class="carousel-caption">
                     <h2>Caption 2</h2>
                 </div> -->
