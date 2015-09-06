@@ -84,9 +84,14 @@ line-height: 25px;
 
 /* Navigation */
 
+.navbar-nav{
+    margin-bottom: -10px;
+    margin-top: 0px;
+}
+
 .navbar-default {
     font-size: 15px;
-    background-color: rgba(224, 128, 38, 1);
+    background-color: rgba(224, 128, 38, 1) !important;
     border-width: 1px;
     border-radius: 0px;
 
@@ -336,17 +341,20 @@ input#cbox{
 
 
 #footer-bottom {
-    background: rgba(224, 128, 38, 1)  none repeat scroll 0% 0%;
+    background: rgb(54,54,54)  none repeat scroll 0% 0%;
     color: #111;
     /*background: #555 none repeat scroll 0% 0%;*/
     /*color: #D6D6D6;*/
     font-size: 15px;
     padding: 20px 0px;
     margin-top: 20px;
+
 }
 .social-icons {
-  padding-top: 10px;
-  text-align: right !important;
+padding-left: 0px;
+margin-bottom: 7px;
+text-align: right;
+
 }
 
 .copy {
@@ -357,10 +365,23 @@ input#cbox{
 
 
 .social-roll {
-  margin: 10px;
-  -webkit-transition: all ease 0.3s;
-  -moz-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  -ms-transition: all ease 0.3s;
-  transition: all ease 0.3s;
+    border-radius: 12px;
+    height: 25px;
+    line-height: 26px;
+    width: 25px;
+    text-align: center;
+    background: #FFF none repeat scroll 0% 0%;
+    margin-top: 15px;
+    padding-top: 5px;
+
 }
+
+
+.tooltip-inner {
+  background-color: rgb(224,128,38);
+}
+.tooltip.top .tooltip-arrow { 
+  border-top-color:rgb(224,128,38); 
+}
+
+
