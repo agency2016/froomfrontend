@@ -76,10 +76,10 @@ a,a:hover{
     /*color: #e08026 !important;*/
 }
 
-#brandlook .account{
-font-family: "Dancing Script",Georgia,Times,serif;
-font-size: 25px;
-line-height: 25px;
+#brandlook .contactinfo{
+    text-align: right;
+    margin-top: 25px;
+}
 }
 
 
@@ -132,25 +132,6 @@ line-height: 25px;
 }
 
 
-/*
-.navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: #e67e22;
-}
-
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(224, 128, 38, 1);
-}
-
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-    color: rgba(252, 252, 252, 1);
-    background-color: rgba(250, 159, 85, 1);
-}
-
-.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
-    background-color: #e67e22;
-}*/
 
 
 .dropdown-menu { background-color: #FFFFFF}
@@ -225,11 +206,6 @@ line-height: 25px;
 .navbar-brand:hover{
   color: #FFFFFF !important;
 }
-
-input#cbox{
-  /*background-color: #e08026;*/
-}
-
 
 
 #login-dp{
@@ -309,10 +285,7 @@ input#cbox{
 }
 
 
-.dropdown{
-  margin-bottom: 10px;
 
-}
 
 .scrollable-menu {
     height: auto;
