@@ -12,10 +12,11 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-
     <link href="http://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css" />
 
 </head>
 
@@ -168,94 +169,61 @@
             
                 <input type="text" class="form-control" name="x" placeholder="Search term...">
                 <span class="input-group-btn">
-                    <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                    <button class="btn btn-warning" type="button"><span class="glyphicon glyphicon-search"></span></button>
                 </span>
             </div>
         </div>
     </div>
 
     <div class="row centered">
-            <div class="input-btn-group col-md-3 col-lg-3 dropdown search-panel1">
-                <button class="btn btn-block btn-warning dropdown-toggle" type="button" id="menu" data-toggle="dropdown">
-                <span id="search_concept1">Select Min price</span> <span class="caret"></span></button>
-                <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="menu">
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">HTML</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">CSS</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">JavaScript</a></li>
-                  <li role="presentation"><a role="menuitem" tabindex="-1" href="#">About Us</a></li>
-                </ul>
-            </div>
+       <div class="col-md-3 col-lg-3 dropdown">
+          <select class="form-control" id="">
+              <option>Select Min. Price</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+          </select>
+        </div> 
 
-
-            <div class="input-btn-group col-md-3 col-lg-3 dropdown search-panel2">
-                <button class="btn btn-block btn-warning dropdown-toggle" type="button" id="menu" data-toggle="dropdown">
-                <span id="search_concept2">Select Max price</span> <span class="caret"></span></button>
-                <ul class="dropdown-menu scrollable-menu" aria-labelledby="menu">
-                  <li role="presentation"><a href="#">HTML</a></li>
-                  <li role="presentation"><a href="#">CSS</a></li>
-                  <li role="presentation"><a href="#">JavaScript</a></li>
-                  <li role="presentation"><a href="#">About Us</a></li>
-                </ul>
+            <div class="col-md-3 col-lg-3 dropdown">
+            <form role="form">
+              <div class="form-group">
+                <select class="form-control" id="sel1" data-style="btn-warning">
+                  <option>Select Max. Price</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+              </div>
+        </form>
             </div>
     
             
-            <div class="input-btn-group col-md-3 col-lg-3 dropdown search-panel3">
-                <button class="btn btn-block btn-warning dropdown-toggle" type="button" id="menu" data-toggle="dropdown">
-                <span id="search_concept3">Beds</span> <span class="caret"></span></button>
-                <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="menu">
-                  <li role="presentation"><a href="#">HTML</a></li>
-                  <li role="presentation"><a href="#">CSS</a></li>
-                  <li role="presentation"><a href="#">JavaScript</a></li>
-                  <li role="presentation"><a href="#">About Us</a></li>
-                  <li role="presentation"><a href="#">HTML</a></li>
-                  <li role="presentation"><a href="#">CSS</a></li>
-                  <li role="presentation"><a href="#">JavaScript</a></li>
-                  <li role="presentation"><a href="#">About Us</a></li>
-                  <li role="presentation"><a href="#">HTML</a></li>
-                  <li role="presentation"><a href="#">CSS</a></li>
-                  <li role="presentation"><a href="#">JavaScript</a></li>
-                  <li role="presentation"><a href="#">About Us</a></li>
-                  <li role="presentation"><a href="#">HTML</a></li>
-                  <li role="presentation"><a href="#">CSS</a></li>
-                  <li role="presentation"><a href="#">JavaScript</a></li>
-                  <li role="presentation"><a href="#">About Us</a></li>
-                  <li role="presentation"><a href="#">HTML</a></li>
-                  <li role="presentation"><a href="#">CSS</a></li>
-                  <li role="presentation"><a href="#">JavaScript</a></li>
-                  <li role="presentation"><a href="#">About Us</a></li>
-                  <li role="presentation"><a href="#">HTML</a></li>
-                  <li role="presentation"><a href="#">CSS</a></li>
-                  <li role="presentation"><a href="#">JavaScript</a></li>
-                  <li role="presentation"><a href="#">About Us</a></li>
-                  <li role="presentation"><a href="#">HTML</a></li>
-                  <li role="presentation"><a href="#">CSS</a></li>
-                  <li role="presentation"><a href="#">JavaScript</a></li>
-                  <li role="presentation"><a href="#">About Us</a></li>
-                  <li role="presentation"><a href="#">HTML</a></li>
-                  <li role="presentation"><a href="#">CSS</a></li>
-                  <li role="presentation"><a href="#">JavaScript</a></li>
-                  <li role="presentation"><a href="#">About Us</a></li>
-                  <li role="presentation"><a href="#">HTML</a></li>
-                  <li role="presentation"><a href="#">CSS</a></li>
-                  <li role="presentation"><a href="#">JavaScript</a></li>
-                  <li role="presentation"><a href="#">About Us</a></li>
-                  <li role="presentation"><a href="#">HTML</a></li>
-                  <li role="presentation"><a href="#">CSS</a></li>
-                  <li role="presentation"><a href="#">JavaScript</a></li>
-                  <li role="presentation"><a href="#">About Us</a></li>
-
-                </ul>
+            <div class="col-md-3 col-lg-3 dropdown">
+                <form role="form">
+              <div class="form-group">
+                <select class="form-control" id="sel1" data-style="btn-warning">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+              </div>
+          </form>
               </div>
               
-            <div class="input-btn-group col-md-3 col-lg-3 dropdown search-panel4">
-                <button class="btn btn-block btn-warning dropdown-toggle" type="button" id="menu" data-toggle="dropdown">
-                <span id="search_concept4">something else</span> <span class="caret"></span></button>
-                <ul class="dropdown-menu scrollable-menu" role="menu" aria-labelledby="menu">
-                    <li role="presentation"><a href="#">HTML</a></li>
-                    <li role="presentation"><a href="#">CSS</a></li>
-                    <li role="presentation"><a href="#">JavaScript</a></li>
-                    <li role="presentation"><a href="#">About Us</a></li>
-                </ul>
+            <div class="col-md-3 col-lg-3 dropdown">
+              <form role="form">
+              <div class="form-group">
+                <select class="form-control" id="sel1" data-style="btn-warning">
+                  <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                </select>
+              </div>
+            </form>
             </div>
     </div>
 </div>
@@ -341,77 +309,16 @@
    </div>
 </footer>
 <!-- /. FOOTER -->
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-    <script type="text/javascript">
-
-//search bar dropdown menu load
-$(document).ready(function(e){
-    $('.search-panel .dropdown-menu').find('a').click(function(e) {
-        e.preventDefault();
-        var param = $(this).attr("href").replace("#","");
-        var concept = $(this).text();
-        $('.search-panel span#search_concept').text(concept);
-        $('.input-group #search_param').val(param);
-    });
-});
-
-
-
-$(document).ready(function(e){
-    $('.search-panel1 .dropdown-menu').find('a').click(function(e) {
-        e.preventDefault();
-        var param = $(this).attr("href").replace("#","");
-        var concept = $(this).text();
-        $('.search-panel1 span#search_concept1').text(concept);
-        $('.input-group #search_param').val(param);
-    });
-});
-
-
-$(document).ready(function(e){
-    $('.search-panel2 .dropdown-menu').find('a').click(function(e) {
-        e.preventDefault();
-        var param = $(this).attr("href").replace("#","");
-        var concept = $(this).text();
-        $('.search-panel2 span#search_concept2').text(concept);
-        $('.input-group #search_param').val(param);
-    });
-});
-
-
-$(document).ready(function(e){
-    $('.search-panel3 .dropdown-menu').find('a').click(function(e) {
-        e.preventDefault();
-        var param = $(this).attr("href").replace("#","");
-        var concept = $(this).text();
-        $('.search-panel3 span#search_concept3').text(concept);
-        $('.input-group #search_param').val(param);
-    });
-});
-
-
-$(document).ready(function(e){
-    $('.search-panel4 .dropdown-menu').find('a').click(function(e) {
-        e.preventDefault();
-        var param = $(this).attr("href").replace("#","");
-        var concept = $(this).text();
-        $('.search-panel4 span#search_concept4').text(concept);
-        $('.input-group #search_param').val(param);
-    });
-});
-
-
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
-
-</script>
-
-</body>
+    <!-- CUSTOM JS -->
+    <script type="text/javascript" src="js/froom.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+    </body>
 
 </html>
