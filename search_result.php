@@ -39,13 +39,13 @@
             <div class="page_left">
                 <!--start block-->
                 <div class="row page_block">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="house_photo"> 
                             <img src="assets/house photo/download.jpg" class="img-responsive" alt="photo not loaded">
                         </div>
                     </div>
                     <div class="house-details">
-                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <div class="col-md-8 col-sm-8 col-xs-12">
                             <div class="house-address">
                                 <h3>House Name</h3>
                                 <p>Address: Baridhara DOHS, lan 4 , 3rd floor</p>
@@ -64,13 +64,13 @@
                 <!--end block-->
                 <!--start block-->
                 <div class="row page_block">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="house_photo"> 
                             <img src="assets/house photo/download.jpg" class="img-responsive" alt="photo not loaded">
                         </div>
                     </div>
                     <div class="house-details">
-                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <div class="col-md-8 col-sm-8 col-xs-12">
                             <div class="house-address">
                                 <h3>House Name</h3>
                                 <p>Address: Baridhara DOHS, lan 4 , 3rd floor</p>
@@ -89,13 +89,13 @@
                 <!--end block-->
                 <!--start block-->
                 <div class="row page_block">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="house_photo"> 
                             <img src="assets/house photo/download.jpg" class="img-responsive" alt="photo not loaded">
                         </div>
                     </div>
                     <div class="house-details">
-                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <div class="col-md-8 col-sm-8 col-xs-12">
                             <div class="house-address">
                                 <h3>House Name</h3>
                                 <p>Address: Baridhara DOHS, lan 4 , 3rd floor</p>
@@ -114,13 +114,13 @@
                 <!--end block-->
                 <!--start block-->
                 <div class="row page_block">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="house_photo"> 
                             <img src="assets/house photo/download.jpg" class="img-responsive" alt="photo not loaded">
                         </div>
                     </div>
                     <div class="house-details">
-                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <div class="col-md-8 col-sm-8 col-xs-12">
                             <div class="house-address">
                                 <h3>House Name</h3>
                                 <p>Address: Baridhara DOHS, lan 4 , 3rd floor</p>
@@ -139,13 +139,13 @@
                 <!--end block-->
                 <!--start block-->
                 <div class="row page_block">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="house_photo"> 
                             <img src="assets/house photo/download.jpg" class="img-responsive" alt="photo not loaded">
                         </div>
                     </div>
                     <div class="house-details">
-                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                        <div class="col-md-8 col-sm-8 col-xs-12">
                             <div class="house-address">
                                 <h3>House Name</h3>
                                 <p>Address: Baridhara DOHS, lan 4 , 3rd floor</p>
