@@ -1,7 +1,7 @@
 <?php
 namespace Stripe;
  (require_once('stripe/lib/Stripe.php'));
-
+ (require_once('stripe/lib/Stripe.php'));
 Stripe::setApiKey("sk_test_QUDAiRcO5PSJteeOj8DdHfZM");
 //print_r(phpversion());
 if(isset($_POST)) {
