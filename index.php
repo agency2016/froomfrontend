@@ -57,7 +57,7 @@
                 </span>
             </div>
 
-            <div id="searchformaddbox">
+            <!-- <div id="searchformaddbox">
 
                   <span id="firstSearchFilter">
                     <label class="searchformprice">Price From</label>
@@ -98,7 +98,62 @@
                     </select>
                   </span>
 
-                </div>
+                </div> -->
+
+ <div class="row centered">
+       <div class="col-md-3 col-lg-3 dropdown">
+          <select class="form-control" id="">
+              <option selected>Select Min. Price</option>
+              <option value="" >1</option>
+              <option value="" >2</option>
+              <option value="" >3</option>
+              <option value="" >4</option>
+          </select>
+        </div> 
+
+            <div class="col-md-3 col-lg-3 dropdown">
+            <form role="form">
+              <div class="form-group">
+                <select class="form-control" id="sel1" data-style="btn-warning">
+                  <option selected>Select Max. Price</option>
+                    <option value="" >2</option>
+                    <option value="" >3</option>
+                    <option value="" >4</option>
+                </select>
+              </div>
+        </form>
+            </div>
+    
+            
+            <div class="col-md-3 col-lg-3 dropdown">
+                <form role="form">
+              <div class="form-group">
+                <select class="form-control" id="sel1" data-style="btn-warning">
+                    <option selected>Number of Beds</option>
+                    <option value="" >2</option>
+                    <option value="" >3</option>
+                    <option value="" >4</option>
+                </select>
+              </div>
+          </form>
+              </div>
+              
+            <div class="col-md-3 col-lg-3 dropdown">
+              <form role="form">
+              <div class="form-group">
+                <select class="form-control" id="sel1" data-style="btn-warning">
+                    <option selected>Number of Baths</option>
+                    <option value="" >2</option>
+                    <option value="" >3</option>
+                    <option value="" >4</option>
+                </select>
+              </div>
+            </form>
+            </div>
+    </div>
+
+
+
       </form>
   </div><!-- searchformboxin -->
   <div class="col-md-3"></div>

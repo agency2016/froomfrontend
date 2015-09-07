@@ -225,7 +225,7 @@ a,a:hover{
     list-style: outside none none;
 }
 
-.form-control { 
+.form-control,.selectpicker { 
   margin-bottom: 10px; 
 }
 .form-control:focus {
