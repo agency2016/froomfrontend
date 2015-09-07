@@ -8,7 +8,7 @@
                  <a href=""> <i data-toggle="tooltip" data-placement="top" title="Facebook" class="social-roll fa fa-facebook"></i></a>
                  <a href=""> <i data-toggle="tooltip" data-placement="top" title="Twitter" class="social-roll fa fa-twitter"></i></a>
                  <a href=""> <i data-toggle="tooltip" data-placement="top" title="Google Plus" class="social-roll fa fa-google-plus"></i></a>
-                 <a href=""> <i data-toggle="tooltip" data-placement="top" title="Linkedin" class="social-roll fa fa-linkedin"></i></a>
+                 <a class="silast" href=""> <i data-toggle="tooltip" data-placement="top" title="Linkedin" class="social-roll fa fa-linkedin"></i></a>
               </div>
             </div>
         </div>

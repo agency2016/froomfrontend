@@ -33,7 +33,7 @@
     </div>
     <div class="col col-xs-12 col-sm-6 contactinfo">
         <p> <i class="glyphicon glyphicon-earphone"></i> 30423048023840238</p>
-        <p> <i class="glyphicon glyphicon-envelope"></i> aksdhkashdkjahsd</p>
+        <p> <i class="glyphicon glyphicon-envelope"></i> aksdhkashdkjahsdxx</p>
     </div>
   </div> 
 </div>
