@@ -30,8 +30,85 @@
         </div>
     </div>
 
-<!-- search n filter bar -->                                  
-<div class="container" id="searchForm">
+<!-- search n filter bar -->     
+
+<div class="container" id="searchbox">
+<div class="row" id="searchformbox">
+<div class="col-md-3"></div>
+  <div class="col-md-6" id="searchformboxin">
+        <form action="" name="homesearch" method="POST" onsubmit="">
+            <div class="input-group">
+                   <div class="input-group-btn search-panel">
+                    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+                        <span id="search_concept">Filter by</span> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu scrollable-menu" role="menu">
+                      <li><a href="#contains">Filter 1</a></li>
+                      <li><a href="#greather_than">Filter 2</a></li>
+                      <li><a href="#less_than">Filter 3</a></li>
+                      <li><a href="#all">Filter 4</a></li>
+                    </ul>
+                </div>
+                <input autocomplete="off" class="form-control" id="" name="location" size="46" placeholder="Type a city and state or zip code" value="" type="text">
+                <span class="input-group-btn">
+                    <button type="submit" name="submitbtn" value="Search" class="btn btn-warning">
+                      <i class="glyphicon glyphicon-search"></i><span> Search</span>
+                    </button>
+                </span>
+            </div>
+
+            <div id="searchformaddbox">
+
+                  <span id="firstSearchFilter">
+                    <label class="searchformprice">Price From</label>
+                    <select name="listing_price_min">
+                      <option value="" selected>Any</option>                     
+                      <option value="50000">$50,000</option>                     
+                      <option value="75000">$75,000</option>                     
+                      <option value="100000">$100,000</option>
+                      <option value="110000">$110,000</option> 
+                    </select>
+                  </span>
+
+                  <span style="padding:0 15px 0 0">
+                    <label style="padding-right:5px">To</label>
+                    <select name="listing_price_max">
+                      <option value="" selected>Any</option>
+                      <option value="50000">$50,000</option>  
+                      <option value="75000">$75,000</option>
+                      <option value="100000">$100,000</option>                   
+                    </select>
+                  </span>
+
+                  <span style="padding-right:15px">
+                    <label class="searchformbbs">Beds</label>
+                    <select name="min_bedrooms">
+                      <option value="" selected>Any</option>
+                      <option value="1">1+</option>
+                      <option value="2">2+</option> 
+                    </select>
+                  </span>
+
+                  <span style="">
+                    <label class="searchformbbs">Baths</label>
+                    <select name="min_full_baths">
+                      <option value="" selected>Any</option>
+                      <option value="1">1+</option>
+                      <option value="2">2+</option> 
+                    </select>
+                  </span>
+
+                </div>
+      </form>
+  </div><!-- searchformboxin -->
+  <div class="col-md-3"></div>
+
+</div><!-- searchformbox -->
+</div>
+
+
+<!--end demo  -->
+<!-- <div class="container" id="searchForm">
     <div class="row centered">    
         
         <div class="col-md-12 col-xs-12" style="margin-bottom: 10px;">
@@ -108,7 +185,7 @@
             </div>
     </div>
 </div>
-
+ -->
 <!-- /. search n filter bar -->
 
 <!-- Controls -->

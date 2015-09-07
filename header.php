@@ -71,43 +71,15 @@
                 <li>
                     <a href="#">Contact</a>
                 </li>
-
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> <span class="caret"></span></a>
-                  <ul id="login-dp" class="dropdown-menu">
-                    <li>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
-                                    <div class="form-group">
-                                        <label class="sr-only" for="exampleInputEmail2">Email address</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="sr-only" for="exampleInputPassword2">Password</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
-                                        <div class="help-block text-right">
-                                            <a href="">Forget the password ?</a>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <button type="submit" class="btn btn-warning btn-block">Sign in</button>
-                                    </div>
-                                    <div class="checkbox" id="cbox">
-                                        <label>
-                                            <input type="checkbox"> keep me logged-in
-                                        </label>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="bottom text-center">
-                                New here ? <a href="#"><b>Join Us</b></a>
-                            </div>
-                          </div>
-                      </li>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="glyphicon glyphicon-user"></i> <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="signup.php">Sign up / Sign in</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+
                   </ul>
                 </li>
-
             </ul>
         </div>
         <!-- /.navbar-collapse -->

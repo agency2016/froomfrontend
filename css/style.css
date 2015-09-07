@@ -208,59 +208,6 @@ a,a:hover{
 }
 
 
-#login-dp{
-    min-width: 250px;
-    padding: 14px 14px 0;
-    overflow:hidden;
-    background-color:rgba(255,255,255,.8);
-}
-#login-dp .help-block{
-    font-size:12px    
-}
-#login-dp .bottom{
-    background-color:rgba(255,255,255,.8);
-    border-top:1px solid #ddd;
-    clear:both;
-    padding:14px;
-}
-#login-dp .social-buttons{
-    margin:12px 0    
-}
-#login-dp .social-buttons a{
-    width: 49%;
-}
-#login-dp .form-group {
-    margin-bottom: 10px;
-}
-.btn-fb{
-    color: #fff;
-    background-color:#3b5998;
-}
-.btn-fb:hover{
-    color: #fff;
-    background-color:#496ebc 
-}
-.btn-tw{
-    color: #fff;
-    background-color:#55acee;
-}
-.btn-tw:hover{
-    color: #fff;
-    background-color:#59b5fa;
-}
-
-@media(max-width:768px){
-    #login-dp{
-        background-color: inherit;
-        color: #fff;
-    }
-    #login-dp .bottom{
-        background-color: inherit;
-        border-top:0 none;
-    }
-}
-
-
 /*search bar*/
 
 
@@ -278,7 +225,9 @@ a,a:hover{
     list-style: outside none none;
 }
 
-
+.form-control { 
+  margin-bottom: 10px; 
+}
 .form-control:focus {
   border-color: #e08026;
   box-shadow: 0px 1px 1px rgb(224,128,38) inset, 0px 0px 8px rgb(224,128,38);
@@ -299,13 +248,15 @@ a,a:hover{
   border-color: #e08026;
   color: #FFFFFF;
 }
+
+
 .btn-warning:hover,
 .btn-warning:focus,
 .btn-warning:active,
 .btn-warning.active {
   background-color: #cf731e;
   border-color: #b9671a;
-    color: #FFFFFF;
+  color: #FFFFFF;
 
 }
 
@@ -359,3 +310,42 @@ text-align: right;
 }
 
 
+
+#searchbox {
+    z-index: 5;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    /*left: 50%;*/
+    top: 30%;
+    /*z-index: 15;*/
+    /*width: 60%;*/
+    /*padding-left: 0px;*/
+    /*margin-left: -30%;*/
+    text-align: center;
+    list-style: outside none none;
+}
+
+
+/*forsalesearchbox*/
+#searchbox #searchformboxin {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin: 0px auto;
+    padding: 20px;
+    /*width: 760px;*/
+}
+
+#searchbox #searchformaddbox {
+    color: #FFF;
+    font-size: 138.5%;
+    text-align: center;
+}
+
+
+#searchbox select {
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 3px;
+  color: #111;
+}
