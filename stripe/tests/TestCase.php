@@ -128,19 +128,18 @@ class TestCase extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * Create a test account
+     * Generate a random 8-character string. Useful for ensuring
+     * multiple test suite runs don't conflict
      */
-    protected static function createTestAccount(array $attributes = array())
+    protected static function randomString()
     {
-        self::authorizeFromEnv();
+        $chars = 'abcdefghijklmnopqrstuvwxyz';
+        $str = '';
+        for ($i = 0; $i < 10; $i++) {
+            $str .= $chars[rand(0, strlen($chars)-1)];
+        }
 
-        return Account::create(
-            $attributes + array(
-                'managed' => false,
-                'country' => 'US',
-                'email' => self::generateRandomEmail(),
-            )
-        );
+        return $str;
     }
 
     /**
@@ -199,14 +198,6 @@ class TestCase extends \PHPUnit_Framework_TestCase
             $randomString .= $characters[rand(0, $charactersLength - 1)];
         }
         return $randomString;
-    }
-
-    /**
-     * Generate a semi-random email.
-     */
-    protected static function generateRandomEmail($domain = 'bar.com')
-    {
-        return self::generateRandomString().'@'.$domain;
     }
 
     protected static function createTestBitcoinReceiver($email)

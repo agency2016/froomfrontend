@@ -1,42 +1,14 @@
 <?php
 namespace Stripe;
- (require_once('stripe/lib/Stripe.php'));
- (require_once('stripe/lib/Stripe.php'));
-Stripe::setApiKey("sk_test_QUDAiRcO5PSJteeOj8DdHfZM");
-//print_r(phpversion());
-if(isset($_POST)) {
-
+ (require_once('stripe/init.php'));
+// (require_once('stripe/lib/Stripe.php'));
  
+ \Stripe\Stripe::setApiKey('sk_test_QUDAiRcO5PSJteeOj8DdHfZM');
+$myCard = array('number' => '4242424242424242', 'exp_month' => 12, 'exp_year' => 2015);
+$charge = \Stripe\Charge::create(array('card' => $myCard, 'amount' => 200, 'currency' => 'usd'));
+echo $charge;
 
-$payment = Stripe_Charge::create(array(
 
- 
-
-'amount'        => $_POST['amount'],
-
-'currency'      => $_POST['currency'],
-
-'card'          => array(
-
-                        'number'    => $_POST['card'],
-
-                        'exp_month' => $_POST['expMonth'],
-
-                        'exp_year'  => $_POST['expYear'],
-
-                        'cvc'       => $_POST['cvc']
-
-),
-
-'description'   => $_POST['description']
-
-)
-
-);
-
-print_r($payment);
-
-}
 
 ?>
 <form method="POST">

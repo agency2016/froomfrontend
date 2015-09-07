@@ -4,38 +4,27 @@ namespace Stripe;
 
 class Refund extends ApiResource
 {
-
     /**
-     * @param string $id The ID of the refund to retrieve.
-     * @param array|string|null $options
-     *
-     * @return Refund
+     * @return string The API URL for this Stripe refund.
      */
-    public static function retrieve($id, $options = null)
+    public function instanceUrl()
     {
-        return self::_retrieve($id, $options);
-    }
+        $id = $this['id'];
+        $charge = $this['charge'];
+        if (!$id) {
+            throw new Error\InvalidRequest(
+                "Could not determine which URL to request: " .
+                "class instance has invalid ID: $id",
+                null
+            );
+        }
+        $id = Util\Util::utf8($id);
+        $charge = Util\Util::utf8($charge);
 
-    /**
-     * @param array|null $params
-     * @param array|string|null $options
-     *
-     * @return Collection of Refunds
-     */
-    public static function all($params = null, $options = null)
-    {
-        return self::_all($params, $options);
-    }
-
-    /**
-     * @param array|null $params
-     * @param array|string|null $options
-     *
-     * @return Refund The created refund.
-     */
-    public static function create($params = null, $options = null)
-    {
-        return self::_create($params, $options);
+        $base = Charge::classUrl();
+        $chargeExtn = urlencode($charge);
+        $extn = urlencode($id);
+        return "$base/$chargeExtn/refunds/$extn";
     }
 
     /**

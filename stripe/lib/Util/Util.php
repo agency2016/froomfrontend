@@ -70,7 +70,6 @@ abstract class Util
             'charge' => 'Stripe\\Charge',
             'coupon' => 'Stripe\\Coupon',
             'customer' => 'Stripe\\Customer',
-            'dispute' => 'Stripe\\Dispute',
             'list' => 'Stripe\\Collection',
             'invoice' => 'Stripe\\Invoice',
             'invoiceitem' => 'Stripe\\InvoiceItem',
