@@ -6,23 +6,26 @@
                     <h2> Login </h2>
                     <hr class="colorgraph">
                     <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
                         <input class="form-control input-lg" type="text" name="email" id="email" tabindex="1" class="form-control" placeholder="E-mail" value="">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
                     </div>
                     <div class="input-group">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                        
                         <input class="form-control input-lg" type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                     </div>
                     <div class="form-group">
                         <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
                         <label for="remember"> Remember Me</label>
+                        <a href="" tabindex="" class="pull-right">Forgot Password?</a>
                     </div>
-                     <hr class="colorgraph">
-                    <div class="col-sm-5 col-sm-offset-3">
+                    <hr class="colorgraph">
+                    <input type="submit" value="Login" class="btn btn-warning btn-block btn-lg" tabindex="7">
+                    <!-- <div class="col-sm-5 col-sm-offset-3">
                         <div class="col-xs-12 col-md-12"><input type="submit" value="Login" class="btn btn-warning btn-block btn-lg" tabindex="7"></div>
-                    </div>
+                    </div> -->
                     
-                    <div class="form-group">
+                  <!--   <div class="form-group">
                         <div class="row">
                             <div class="col-sm-5 col-sm-offset-3">
                                 <div class="text-center forgotpass">
@@ -30,7 +33,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </form>
 
             </div>
@@ -50,7 +53,7 @@
                     <input class="form-control input-lg" name="password" placeholder="Enter Your Password" type="password" />
                     <input class="form-control input-lg" name="password" placeholder="Re-enter Your Password" type="password" />
 
-                    <label for="">Birth Date</label>
+                   <!--  <label for="">Birth Date</label>
                     <div class="row">
                         <div class="col-xs-4 col-md-4">
                             <select class="form-control">
@@ -67,7 +70,7 @@
                                 <option value="Year">Year</option>
                             </select>
                         </div>
-                    </div>
+                    </div> 
                     <label class="radio-inline">
                         <input type="radio" name="sex" id="inlineCheckbox1" value="male" />
                         Male
@@ -75,12 +78,14 @@
                     <label class="radio-inline">
                         <input type="radio" name="sex" id="inlineCheckbox2" value="female" />
                         Female
-                    </label><br><br>
-                    <input type="checkbox" name="terms"> I agree with the <a href="#">Terms and Conditions</a>.
+                    </label><br><br>-->
+                    <input type="checkbox" name="terms"> <b>I agree with the <a href="#">Terms and Conditions</a>.</b>
                     <hr class="colorgraph">
-                    <div class="col-sm-6 col-sm-offset-3">
+                    <input type="submit" value="Sign Up" class="btn btn-warning btn-block btn-lg" tabindex="7">
+                    
+                  <!--   <div class="col-sm-6 ">
                         <div class="col-xs-12 col-md-12"><input type="submit" value="Sign Up" class="btn btn-warning btn-block btn-lg" tabindex="7"></div>
-                    </div>
+                    </div> -->
                 </form>
             </div>
             <!-- <div class="col-md-3"></div> -->

@@ -3,7 +3,7 @@
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h4>USER LIST</h4>
+            <h1 class="text-center">USER LIST</h1>
             <div class="table-responsive">
                 <table id="mytable" class="table table-bordred table-striped">
                     <thead>
