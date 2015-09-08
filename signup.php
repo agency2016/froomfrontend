@@ -14,6 +14,7 @@
                         <input class="form-control input-lg" type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
                         <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                     </div>
+                    <span class="help-block">Email or Password error</span>
                     <div class="form-group">
                         <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
                         <label for="remember"> Remember Me</label>
