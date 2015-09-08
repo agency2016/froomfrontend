@@ -15,8 +15,9 @@ a,a:hover{
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
-.carousel {
-    height: 50%;
+.carousel{
+  margin-top: 5px;
+  height: 100%;
 }
 
 .carousel .item,
@@ -171,10 +172,7 @@ a,a:hover{
 }
 
 
-.carousel{
-  margin-top: 5px;
-  height: 100%;
-}
+
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -190,6 +188,7 @@ a,a:hover{
     color: #fbfbfb;
     background-color: #ff6500;
   }
+
 }
 
 
@@ -212,7 +211,7 @@ a,a:hover{
 /*search bar*/
 
 
-#searchForm {
+/*#searchForm {
 
     position: absolute;
     bottom: 10px;
@@ -224,6 +223,53 @@ a,a:hover{
     margin-left: -30%;
     text-align: center;
     list-style: outside none none;
+}
+*/
+
+/*SEARCH BOX*/
+#searchbox {
+    z-index: 5;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    top: 40%;
+    text-align: center;
+    list-style: outside none none;
+}
+
+
+/*forsalesearchbox*/
+#searchbox #searchformboxin {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin: 0px auto;
+    padding: 20px;
+
+}
+
+#searchbox #searchformaddbox {
+    color: #FFF;
+    font-size: 138.5%;
+    text-align: center;
+}
+
+#searchbox select {
+  font-size: 12px;
+  margin-top: 10px;
+  padding: 3px;
+  color: #111;
+}
+
+
+@media (max-width: 480px) {
+  #searchbox #searchformboxin {
+    margin-top: -50px;
+  }
+
+  #searchbox{
+  top: 30%;
+}
+
 }
 
 .form-control,.selectpicker { 
@@ -262,8 +308,6 @@ a,a:hover{
 
 
 /*FOOTER*/
-
-
 #footer-bottom {
     background: rgb(54,54,54)  none repeat scroll 0% 0%;
     color: #111;
@@ -274,6 +318,7 @@ a,a:hover{
     margin-top: 20px;
 
 }
+
 .social-icons {
 padding-left: 0px;
 margin-bottom: 7px;
@@ -310,45 +355,33 @@ text-align: right;
 
 
 .silast{
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
 
-#searchbox {
-    z-index: 5;
-    width: 100%;
-    position: absolute;
-    bottom: 10px;
-    /*left: 50%;*/
-    top: 30%;
-    /*z-index: 15;*/
-    /*width: 60%;*/
-    /*padding-left: 0px;*/
-    /*margin-left: -30%;*/
-    text-align: center;
-    list-style: outside none none;
+
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > a{
+  background-color: #E08026;
+  border-color: #E08026;
+}
+
+.pagination > li > a,.pagination > .active > li > a{
+  color: #E08026;
 }
 
 
-/*forsalesearchbox*/
-#searchbox #searchformboxin {
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 10px;
-    margin: 0px auto;
-    padding: 20px;
-    /*width: 760px;*/
-}
-
-#searchbox #searchformaddbox {
-    color: #FFF;
-    font-size: 138.5%;
-    text-align: center;
+/*.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}
+*/
+.pull-center{
+  text-align: center;
 }
 
 
-#searchbox select {
-  font-size: 12px;
+.input-group{
+  margin-bottom: 25px;
+}
+
+.forgotpass{
   margin-top: 10px;
-  padding: 3px;
-  color: #111;
 }

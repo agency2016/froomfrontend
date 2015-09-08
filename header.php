@@ -56,7 +56,7 @@
         <div class="collapse navbar-collapse" id="navbar-collapse-2">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#">Home</a>
+                    <a href="index.php">Home</a>
                 </li>
                 <li>
                     <a href="#">About</a>

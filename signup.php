@@ -1,26 +1,31 @@
     <?php include 'header.php'; ?>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <form id="login-form" action="http://phpoll.com/login/process" method="post" role="form" style="display: block;">
                     <h2> Login </h2>
                     <hr class="colorgraph">
-                        <input class="form-control input-lg" type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+                        <input class="form-control input-lg" type="text" name="email" id="email" tabindex="1" class="form-control" placeholder="E-mail" value="">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
                         <input class="form-control input-lg" type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
-        
-                    <div class="form-group text-center">
+                    </div>
+                    <div class="form-group">
                         <input type="checkbox" tabindex="3" class="" name="remember" id="remember">
                         <label for="remember"> Remember Me</label>
                     </div>
-
-                            <div class="col-sm-6 col-sm-offset-3">
-                                <div class="col-xs-12 col-md-12"><input type="submit" value="Login" class="btn btn-warning btn-block btn-lg" tabindex="7"></div>
-                            </div>
-
+                     <hr class="colorgraph">
+                    <div class="col-sm-5 col-sm-offset-3">
+                        <div class="col-xs-12 col-md-12"><input type="submit" value="Login" class="btn btn-warning btn-block btn-lg" tabindex="7"></div>
+                    </div>
+                    
                     <div class="form-group">
                         <div class="row">
-                            <div class="col-lg-12">
-                                <div class="text-center">
+                            <div class="col-sm-5 col-sm-offset-3">
+                                <div class="text-center forgotpass">
                                     <a href="" tabindex="5" class="forgot-password">Forgot Password?</a>
                                 </div>
                             </div>
@@ -29,7 +34,10 @@
                 </form>
 
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
+            <div class="col-md-2">
+                <!-- <div class="divider-vertical text-center"></div> -->
+            </div>
+            <div class="col-md-5">
                 
                 <form role="form" action="insertuser.php" method="post">
                     <h2> Sign Up</h2>
@@ -78,5 +86,4 @@
             <!-- <div class="col-md-3"></div> -->
         </div>
         </div>
-
     <?php include 'footer.php'; ?>
