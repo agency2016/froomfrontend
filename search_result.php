@@ -1,49 +1,6 @@
 <?php include 'header.php'; ?>
 
-<style>
-
-    .search_bar{
-        background-color: #f6dac0;
-    }
-    .search_button_place{
-        padding-bottom: 20px; padding-right: 30px; float: right;
-    }
-    .page_left {
-        height: 728px; 
-        padding-right: 20px;
-        overflow:scroll;
-    }    
-    .page_block{
-        background-color: #fbf2e9;
-        box-shadow: 0px 0px 10px 0px #efbf92;
-        margin-bottom: 50px;
-    }
-    .house_photo{
-        /*padding: 22px 0px 10px 8px;*/
-        margin-top: 20px;
-        padding-left: 10px;
-    }
-    .house-details{
-        padding-left: 10px;
-    }
-    .house-address{
-        line-height: 12px;
-        padding-bottom: 15px;
-    }
-    .details-house{
-        line-height: 9px;
-        padding-bottom: 5px;
-    }
-    .font_inside_option{
-        height: 25px;
-        padding: 0px;
-    }
-
-
-
-</style>
-
-<div class="container-fluid search_bar">
+<div class="container-fluid froom_form_bg_color">
     <form role="form">
         <!--visible portion-->
         <div class="row">
@@ -240,7 +197,7 @@
         <div class="col-lg-6">
             <div class="page_left">
                 <!--start block-->
-                <div class="row page_block">
+                <div class="row froom_txt_bg_color">
                     <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="house_photo"> 
                             <img src="assets/house photo/download.jpg" class="img-responsive" alt="photo not loaded">
@@ -263,107 +220,7 @@
                         </div> 
                     </div>
                 </div>
-                <!--end block-->
-                <!--start block-->
-                <div class="row page_block">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="house_photo"> 
-                            <img src="assets/house photo/download.jpg" class="img-responsive" alt="photo not loaded">
-                        </div>
-                    </div>
-                    <div class="house-details">
-                        <div class="col-md-8 col-sm-8 col-xs-12">
-                            <div class="house-address">
-                                <h3>House Name</h3>
-                                <p>Address: Baridhara DOHS, lan 4 , 3rd floor</p>
-                            </div>
-                            <div class="details-house">
-                                <p><strong>3200<sup>+</sup>/Month</strong></p>
-                                <p>1-2 Bed | 2 Bath | 520<sup>+</sup> Sq Ft</p>
-                                <p>For Rent</p>
-                                <p>Managed by : john</p>
-                                <p>Pets allowed</p>
-                                <p><strong>23</strong> hours ago by john</p>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-                <!--end block-->
-                <!--start block-->
-                <div class="row page_block">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="house_photo"> 
-                            <img src="assets/house photo/download.jpg" class="img-responsive" alt="photo not loaded">
-                        </div>
-                    </div>
-                    <div class="house-details">
-                        <div class="col-md-8 col-sm-8 col-xs-12">
-                            <div class="house-address">
-                                <h3>House Name</h3>
-                                <p>Address: Baridhara DOHS, lan 4 , 3rd floor</p>
-                            </div>
-                            <div class="details-house">
-                                <p><strong>3200<sup>+</sup>/Month</strong></p>
-                                <p>1-2 Bed | 2 Bath | 520<sup>+</sup> Sq Ft</p>
-                                <p>For Rent</p>
-                                <p>Managed by : john</p>
-                                <p>Pets allowed</p>
-                                <p><strong>23</strong> hours ago by john</p>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-                <!--end block-->
-                <!--start block-->
-                <div class="row page_block">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="house_photo"> 
-                            <img src="assets/house photo/download.jpg" class="img-responsive" alt="photo not loaded">
-                        </div>
-                    </div>
-                    <div class="house-details">
-                        <div class="col-md-8 col-sm-8 col-xs-12">
-                            <div class="house-address">
-                                <h3>House Name</h3>
-                                <p>Address: Baridhara DOHS, lan 4 , 3rd floor</p>
-                            </div>
-                            <div class="details-house">
-                                <p><strong>3200<sup>+</sup>/Month</strong></p>
-                                <p>1-2 Bed | 2 Bath | 520<sup>+</sup> Sq Ft</p>
-                                <p>For Rent</p>
-                                <p>Managed by : john</p>
-                                <p>Pets allowed</p>
-                                <p><strong>23</strong> hours ago by john</p>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-                <!--end block-->
-                <!--start block-->
-                <div class="row page_block">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="house_photo"> 
-                            <img src="assets/house photo/download.jpg" class="img-responsive" alt="photo not loaded">
-                        </div>
-                    </div>
-                    <div class="house-details">
-                        <div class="col-md-8 col-sm-8 col-xs-12">
-                            <div class="house-address">
-                                <h3>House Name</h3>
-                                <p>Address: Baridhara DOHS, lan 4 , 3rd floor</p>
-                            </div>
-                            <div class="details-house">
-                                <p><strong>3200<sup>+</sup>/Month</strong></p>
-                                <p>1-2 Bed | 2 Bath | 520<sup>+</sup> Sq Ft</p>
-                                <p>For Rent</p>
-                                <p>Managed by : john</p>
-                                <p>Pets allowed</p>
-                                <p><strong>23</strong> hours ago by john</p>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-                <!--end block-->
+                <!--end block-->          
                 <div class="text-center">
                     <nav>
                         <ul class="pagination">

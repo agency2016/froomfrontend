@@ -5,18 +5,20 @@
         <div class="col-md-3" style="padding-right: 0px; padding-left: 0px; padding-top: 0px;">
             <nav class="navbar navbar-default navbar-static-top" role="navigation">
                 <div class="navbar-default sidebar" role="navigation">
-                    <div class="sidebar-nav navbar-collapse" style="background-color: #f6dac0;">
-                        <ul class="nav" id="side-menu">                            
+                    <div class="sidebar-nav navbar-collapse">
+                        <ul class="nav">                            
                             <li>
-                                <a href="http://localhost/agencyDelta/froomfrontend/user_info.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                                <a href="http://localhost/agencyDelta/froomfrontend/user_info_dashboard.php" class="nav_side_txt_color"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                             </li>
+                            <!--                            <li>
+                                                            <a href="index.html"><i class="fa fa-envelope fa-fw"></i> Message <span class="badge" style="float: right;">10</span></a>
+                                                        </li>-->
                             <li>
-                                <a href="index.html"><i class="fa fa-envelope fa-fw"></i> Message <span class="badge" style="float: right;">10</span></a>
-                            </li>
+                                <a href="index.html" class="nav_side_txt_color"><i class="fa fa-user fa-fw"></i></i> User Details</a>                                
+                            </li> 
                             <li>
-                                <a href="index.html"><i class="fa fa-wrench fa-fw"></i></i> User Settings</a>
-                            </li>
-
+                                <a href="index.html" class="nav_side_txt_color"><i class="fa fa-wrench fa-fw"></i></i> Settings</a>                                
+                            </li>                                                  
                         </ul>
                     </div>
                 </div>

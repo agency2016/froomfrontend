@@ -1,40 +1,13 @@
 <?php include 'header.php'; ?>
 
-<style>
-    .image { 
-        position: relative; 
-        width: 100%; /* for IE 6 */
-    }
-
-    .shadow-on-image { 
-        position: absolute; 
-        bottom: 0px; 
-        left: 0; 
-        width: 100%;
-        height: 50px;
-        background-color: rgba(0, 0, 0, 0.7);
-        color: #FFF;
-        padding: 5px;
-    }
-
-    .custom-glyphicon-icon-size{
-        font-size: 20px;
-    }
-
-    .contact_agent_button_place{
-        padding-bottom: 30px;
-    }
-
-</style>
-
 <div class="container-fluid">
     <div class="row" style="margin-top: 30px;">
         <div class="col-lg-9">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="image">
+                    <div class="visible_image">
                         <img src="assets/house photo/myhome.jpg" class="img-responsive" alt="photo not loaded">
-                        <div class="shadow-on-image">
+                        <div class="shadow-on-visible_image ">
                             <ul class="list-inline custom-glyphicon-icon-size">
                                 <li><i class="glyphicon glyphicon-bed"></i><span> - 2 Beds</span></li>
                                 <li> | 2 Bathes</span></li>
@@ -81,7 +54,7 @@
         </div>
 
         <div class="col-lg-3">
-            <div class="row" style="background-color: #f6dac0; margin-right: 4px;">
+            <div class="row froom_form_bg_color" style=" margin-right: 4px;">
                 <div class="col-xs-12 col-sm-12 col-md-12">
                     <form role="form">
                         <h3>Tour This Home <small>Register to tour this home with a local real estate agent.</small></h3>
