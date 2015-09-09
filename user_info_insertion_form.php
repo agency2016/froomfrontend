@@ -47,26 +47,23 @@
                         <div class="form-group">
                             <input type="number" name="display_name" id="display_name" class="form-control" placeholder="Phone Number" tabindex="3">
                         </div>
-                        <div class="form-group">
-                            <input type="number" name="display_name" id="display_name" class="form-control" placeholder="National ID or Passport Number" tabindex="3">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" tabindex="4">
-                        </div>
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="password" name="password" id="password" class="form-control" placeholder="Password" tabindex="5">
+                                    <input type="number" name="zip" class="form-control" placeholder="Zip code" tabindex="1">
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="password" name="password_confirmation" id="password_confirmation" class="form-control" placeholder="Confirm Password" tabindex="6">
+                                    <input type="text" name="state" class="form-control" placeholder="Current state" tabindex="2">
                                 </div>
                             </div>
                         </div>
-
-
+                        
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Current Address"></textarea>
+                        </div>
+                        
                         <hr class="colorgraph">
                         <div class="row">
                             <div class="col-xs-12 col-md-12 contact_agent_button_place"><a href="#" class="btn btn-warning btn-block">Complete</a></div>
