@@ -50,20 +50,33 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="number" name="zip" class="form-control" placeholder="Zip code" tabindex="1">
+                                    <select class="form-control input-sm">
+                                        <option selected>Current state</option>
+                                        <option value="" >Washington DC</option>
+                                        <option value="" >Washington DC</option>
+                                        <option value="" >Chian</option>
+                                        <option value="" >Washington DC</option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-6 col-md-6">
                                 <div class="form-group">
-                                    <input type="text" name="state" class="form-control" placeholder="Current state" tabindex="2">
+                                    <input type="text" name="city" class="form-control" placeholder="current City" tabindex="1">
                                 </div>
-                            </div>
+                            </div>                        
                         </div>
-                        
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-6">
+                                <div class="form-group">
+                                    <input type="number" name="zip" class="form-control" placeholder="Zip code" tabindex="1">
+                                </div>
+                            </div>                        
+                        </div>
+
                         <div class="form-group">
                             <textarea class="form-control" rows="5" placeholder="Current Address"></textarea>
                         </div>
-                        
+
                         <hr class="colorgraph">
                         <div class="row">
                             <div class="col-xs-12 col-md-12 contact_agent_button_place"><a href="#" class="btn btn-warning btn-block">Complete</a></div>
