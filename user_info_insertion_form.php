@@ -10,13 +10,13 @@
                     <div class="sidebar-nav navbar-collapse">
                         <ul class="nav">                            
                             <li>
-                                <a href="http://localhost/agencyDelta/froomfrontend/user_info_dashboard.php" class="nav_side_txt_color"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                                <a href="user_info_dashboard.php" class="nav_side_txt_color"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                             </li>
                             <!--                            <li>
                                                             <a href="index.html"><i class="fa fa-envelope fa-fw"></i> Message <span class="badge" style="float: right;">10</span></a>
                                                         </li>-->
                             <li>
-                                <a href="index.html" class="nav_side_txt_color"><i class="fa fa-user fa-fw"></i></i> User Details</a>                                
+                                <a href="user_info_details.php" class="nav_side_txt_color"><i class="fa fa-user fa-fw"></i></i> User Details</a>                                
                             </li> 
                             <li>
                                 <a href="index.html" class="nav_side_txt_color"><i class="fa fa-wrench fa-fw"></i></i> Settings</a>                                
