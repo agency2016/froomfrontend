@@ -1,5 +1,6 @@
 <?php include 'header.php';?>
 
+<div id="wrap">
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -103,7 +104,7 @@
         </div>
     </div>
 </div>
-
+</div>
 <div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="edit" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -113,13 +114,13 @@
             </div>
             <div class="modal-body">
                 <div class="form-group">
-                    <input class="form-control " type="text" placeholder="Mohsin">
+                    <input class="form-control " type="text" placeholder="User Name">
                 </div>
                 <div class="form-group">
-                    <input class="form-control " type="text" placeholder="Irshad">
+                    <input class="form-control " type="text" placeholder="Name">
                 </div>
                 <div class="form-group">
-                    <textarea rows="2" class="form-control" placeholder="CB 106/107 Street # 11 Wah Cantt Islamabad Pakistan"></textarea>
+                    <textarea rows="2" class="form-control" placeholder="Dhaka, Bangladesh"></textarea>
 
 
                 </div>
