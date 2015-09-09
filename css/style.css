@@ -306,7 +306,6 @@ a,a:hover{
 }
 
 
-
 /*FOOTER*/
 #footer-bottom {
     background: rgb(54,54,54)  none repeat scroll 0% 0%;
@@ -316,7 +315,13 @@ a,a:hover{
     font-size: 15px;
     padding: 20px 0px;
     margin-top: 20px;
+}
 
+#wrap {
+  min-height: 100%;
+  height: auto;
+  margin: 0 auto -60px;
+  padding: 0 0 60px;
 }
 
 .social-icons {
@@ -373,6 +378,7 @@ text-align: right;
 
 /*.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}
 */
+
 .pull-center{
   text-align: center;
 }
@@ -386,3 +392,4 @@ text-align: right;
   /*margin-top: 10px;*/
   text-align: right;
 }
+

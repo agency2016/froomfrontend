@@ -253,7 +253,7 @@
 </div>    
 <!-- /. Carousel Slider-->
 
-
+ <div id="wrap">
 <!-- Page Content -->
 <div class="container">
     <hr>
@@ -302,5 +302,5 @@
 </div>
 <!-- /.container -->
 <!-- /.Page Content -->
-
+</div>
 <?php include 'footer.php'; ?>
