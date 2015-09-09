@@ -451,7 +451,7 @@ mazba
     color: #FFF;
 }
 .froom_form_bg_color{
-    background-color: #f6dac0;
+    background-color: #ecb27c;
 }
 .search_button_place{
     padding-bottom: 20px; padding-right: 30px; float: right;
@@ -462,7 +462,7 @@ mazba
     overflow:scroll;
 }    
 .froom_txt_bg_color{
-    background-color: #fbf2e9;
+    background-color: #f1c69e;
     box-shadow: 0px 0px 10px 0px #efbf92;
     margin-bottom: 50px;
 }
