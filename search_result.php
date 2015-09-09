@@ -38,7 +38,7 @@
         height: 25px;
         padding: 0px;
     }
-    
+
 
 
 </style>
@@ -110,7 +110,7 @@
 
         <!--invisible portion-->
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="form-group">
                     <label class="control-label" for="inputSuccess2">Minimum Sq. Ft</label>
                     <select class="form-control font_inside_option">                    
@@ -146,7 +146,7 @@
                     </select> 
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-6 col-xs-12">
                 <h3>Property type</h3>
                 <div class="checkbox" name="family-type">
                     <label>
@@ -167,7 +167,7 @@
                     </label>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-6 col-xs-12">
                 <h3>Listing features</h3>
                 <div class="form-group">
                     <label class="control-label" for="inputSuccess2">Price reductions</label>
@@ -196,7 +196,7 @@
                     </select>                    
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3 col-sm-6 col-xs-12">
                 <h3>Listing type</h3>
                 <div class="form-group">
                     <label class="control-label" for="inputSuccess2">Foreclosures</label>

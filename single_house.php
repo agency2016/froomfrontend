@@ -20,7 +20,7 @@
     .custom-glyphicon-icon-size{
         font-size: 20px;
     }
-    
+
     .contact_agent_button_place{
         padding-bottom: 30px;
     }
@@ -79,7 +79,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="col-lg-3">
             <div class="row" style="background-color: #f6dac0; margin-right: 4px;">
                 <div class="col-xs-12 col-sm-12 col-md-12">
@@ -98,7 +98,7 @@
                                 </div>
                             </div>
                         </div>
-                         <div class="form-group">
+                        <div class="form-group">
                             <input type="email" name="email" id="email" class="form-control" placeholder="Email Address" tabindex="4">
                         </div>
                         <div class="form-group">
@@ -133,7 +133,7 @@
                         </div>
 
                         <hr class="colorgraph">
-                        
+
                         <div class="row">
                             <div class="col-xs-12 col-md-12 contact_agent_button_place">
                                 <button type="button" name="submit" class="btn btn-warning btn-block btn-lg" value="">Contact agent</button>
