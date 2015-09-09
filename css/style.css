@@ -310,11 +310,10 @@ a,a:hover{
 #footer-bottom {
     background: rgb(54,54,54)  none repeat scroll 0% 0%;
     color: #111;
-    /*background: #555 none repeat scroll 0% 0%;*/
-    /*color: #D6D6D6;*/
     font-size: 15px;
     padding: 20px 0px;
     margin-top: 20px;
+
 }
 
 #wrap {
@@ -323,6 +322,7 @@ a,a:hover{
     margin: 0 auto -60px;
     padding: 0 0 60px;
 }
+
 
 .social-icons {
     padding-left: 0px;
@@ -388,13 +388,58 @@ a,a:hover{
     margin-bottom: 25px;
 }
 
+/*USER LIST*/
 .forgotpass{
     /*margin-top: 10px;*/
     text-align: right;
 }
 
+/*CREDIT CARD*/
 
+.credit-card{
+margin-top: 50px;
+}
 
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
 
 
 

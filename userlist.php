@@ -88,19 +88,7 @@
                     <li><a href="#">5</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span></a></li>
                 </ul>
-             <!--    <div class="text-center">
-                    <ul class="pagination ">
-                      <li class="disabled"><a href="#">«</a></li>
-                      <li ><a href="#">1 </a></li>
-                      <li><a href="#">2</a></li>
-                      <li><a href="#">3</a></li>
-                      <li class="active"><a href="#">4<span class="sr-only">(current)</span></a></li>
-                      <li><a href="#">5</a></li>
-                      <li><a href="#">»</a></li>
-                    </ul>
-                </div> -->
             </div>
-
         </div>
     </div>
 </div>
@@ -121,8 +109,6 @@
                 </div>
                 <div class="form-group">
                     <textarea rows="2" class="form-control" placeholder="Dhaka, Bangladesh"></textarea>
-
-
                 </div>
             </div>
             <div class="modal-footer ">
