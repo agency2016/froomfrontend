@@ -1,0 +1,8 @@
+{
+    "name": "agencydelta",
+
+
+  "require": {
+    "stripe/stripe-php": "2.*"
+  }
+}

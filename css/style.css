@@ -5,38 +5,513 @@ body {
 
 body {
     padding-top: 50px;
+    overflow-y: scroll;
+    font-family: Raleway;
+}
+a,a:hover{
+    color: #e08026; 
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+.carousel{
+    margin-top: 5px;
+    height: 100%;
+}
+
+.carousel .item,
+.carousel .item.active,
+.carousel .carousel-inner {
+    height: 100%;
+}
+
+.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 
-/* Home Page Carousel */
-header.carousel {
-    height: 50%;
-}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (max-width: 768px) {
 
+    .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+        max-width:inherit;
+    }
 
-/* Footer Styles */
-
-footer {
-    margin: 50px 0;
-}
-
-
-
-/* Responsive Styles */
-
-@media(max-width:991px) {
-    .customer-img,
-    .img-related {
-        margin-bottom: 30px;
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
     }
 }
 
-@media(max-width:767px) {
-    .img-portfolio {
-        margin-bottom: 15px;
+.centered {
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+
+/*banner*/
+#topupmenu{
+    background-color: rgb(239,239,239);
+}
+
+#brandlook{
+    background-color: rgb(54,54,54);
+    color: rgb(224,128,38);
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#brandlook .logo{
+    font-family: 'Dancing Script', Georgia, Times, serif;
+    font-size: 35px;
+    line-height: 25px;
+    /*color: #e08026 !important;*/
+}
+
+#brandlook .contactinfo{
+    text-align: right;
+    margin-top: 25px;
+}
+
+
+
+/* Navigation */
+
+.navbar-nav{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.navbar-default {
+    font-size: 15px;
+    background-color: rgba(224, 128, 38, 1) !important;
+    border-width: 1px;
+    border-radius: 0px;
+
+}
+
+
+.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus {
+    color: #fbfbfb;
+}
+
+.navbar-default .navbar-text {
+    color: #f9f9f9;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(224, 128, 38, 1);
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+    color: rgba(252, 252, 252, 1);
+    background-color: rgba(250, 159, 85, 1);
+}
+
+.navbar-fixed-top{
+    position: relative;
+    margin-bottom: -20px;
+    margin-top: -50px;
+}
+
+
+
+
+.dropdown-menu { background-color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { 
+    background-color: #e08026;
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(217, 111, 11, 1);
+
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #d96f0b;
+}
+
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+    background-color: #d96f0b;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f9f9f9;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #f9f9f9;
+}
+.navbar-default .navbar-link {
+    color: #f9f9f9;
+}
+.navbar-default .navbar-link:hover {
+    color: #fbfbfb;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #f9f9f9;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, 
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #fbfbfb;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a, 
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, 
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #fbfbfb;
+        background-color: #ff6500;
     }
 
-    header.carousel .carousel {
-        height: 70%;
-    }
 }
+
+
+
+
+/*custom navbar */
+
+.navbar-brand{
+    font-family: 'Dancing Script', Georgia, Times, serif;
+    font-size: 35px;
+    line-height: 25px;
+    color: #e08026 !important;
+}
+
+.navbar-brand:hover{
+    color: #FFFFFF !important;
+}
+
+
+/*search bar*/
+
+
+/*#searchForm {
+
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    top: 30%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0px;
+    margin-left: -30%;
+    text-align: center;
+    list-style: outside none none;
+}
+*/
+
+/*SEARCH BOX*/
+#searchbox {
+    z-index: 5;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    top: 40%;
+    text-align: center;
+    list-style: outside none none;
+}
+
+
+/*forsalesearchbox*/
+#searchbox #searchformboxin {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin: 0px auto;
+    padding: 20px;
+
+}
+
+#searchbox #searchformaddbox {
+    color: #FFF;
+    font-size: 138.5%;
+    text-align: center;
+}
+
+#searchbox select {
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 3px;
+    color: #111;
+}
+
+
+@media (max-width: 480px) {
+    #searchbox #searchformboxin {
+        margin-top: -50px;
+    }
+
+    #searchbox{
+        top: 30%;
+    }
+
+}
+
+.form-control,.selectpicker { 
+    margin-bottom: 10px; 
+}
+.form-control:focus {
+    border-color: #e08026;
+    box-shadow: 0px 1px 1px rgb(224,128,38) inset, 0px 0px 8px rgb(224,128,38);
+}
+
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+
+.btn-warning {
+    background-color: #e08026;
+    border-color: #e08026;
+    color: #FFFFFF;
+}
+
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active {
+    background-color: #cf731e;
+    border-color: #b9671a;
+    color: #FFFFFF;
+
+}
+
+
+/*FOOTER*/
+#footer-bottom {
+    background: rgb(54,54,54)  none repeat scroll 0% 0%;
+    color: #111;
+    font-size: 15px;
+    padding: 20px 0px;
+    margin-top: 20px;
+
+}
+
+#wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+
+.social-icons {
+    padding-left: 0px;
+    margin-bottom: 7px;
+    text-align: right;
+
+}
+
+.copy {
+    padding-top: 20px;
+    float: left;
+    color: #FFFFFF;
+}
+
+
+.social-roll {
+    border-radius: 12px;
+    height: 25px;
+    line-height: 26px;
+    width: 25px;
+    text-align: center;
+    background: #FFF none repeat scroll 0% 0%;
+    margin-top: 15px;
+    padding-top: 5px;
+
+}
+
+
+.tooltip-inner {
+    background-color: rgb(224,128,38);
+}
+.tooltip.top .tooltip-arrow { 
+    border-top-color:rgb(224,128,38); 
+}
+
+
+.silast{
+    padding-right: 15px;
+}
+
+
+
+
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > a{
+    background-color: #E08026;
+    border-color: #E08026;
+}
+
+.pagination > li > a,.pagination > .active > li > a{
+    color: #E08026;
+}
+
+
+/*.pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}
+*/
+
+.pull-center{
+    text-align: center;
+}
+
+
+.input-group{
+    margin-bottom: 25px;
+}
+
+/*USER LIST*/
+.forgotpass{
+    /*margin-top: 10px;*/
+    text-align: right;
+}
+
+/*CREDIT CARD*/
+
+.credit-card{
+    margin-top: 90px;
+}
+
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+
+
+
+/*search_result page and form and text backgrround
+mazba
+*/
+
+.nav_side_txt_color{
+    color: #FFF;
+}
+.froom_form_bg_color{
+    background-color: #ecb27c;
+}
+.search_button_place{
+    padding-bottom: 20px; padding-right: 30px; float: right;
+}
+.page_left {
+    height: 728px; 
+    padding-right: 20px;
+    overflow:scroll;
+}    
+.froom_txt_bg_color{
+    background-color: #f1c69e;
+    box-shadow: 0px 0px 10px 0px #efbf92;
+    margin-bottom: 50px;
+}
+.house_photo{
+    /*padding: 22px 0px 10px 8px;*/
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.house-details{
+    padding-left: 10px;
+}
+.house-address{
+    line-height: 12px;
+    padding-bottom: 15px;
+}
+.details-house{
+    line-height: 9px;
+    padding-bottom: 5px;
+}
+.font_inside_option{
+    height: 25px;
+    padding: 0px;
+}
+/*end froom search_result*/
+
+/*single_house start
+mazba
+*/
+.visible_image { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+}
+
+.shadow-on-visible_image { 
+    position: absolute; 
+    bottom: 0px; 
+    left: 0; 
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #FFF;
+    padding: 5px;
+}
+
+.custom-glyphicon-icon-size{
+    font-size: 20px;
+}
+
+.contact_agent_button_place{
+    padding-bottom: 30px;
+}
+/*end single_house*/
