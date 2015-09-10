@@ -1,11 +1,11 @@
 <?php include 'header.php'; ?>
 <!-- Carousel Slider -->
-<div id="froomCarousel" class="carousel slide">
+<div id="myCarousel" class="carousel slide">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-        <li data-target="#froomCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#froomCarousel" data-slide-to="1"></li>
-        <li data-target="#froomCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -32,10 +32,9 @@
 
 <!-- search n filter bar -->     
 
-<div class="container" id="searchbox">
-<div class="row" id="searchformbox">
-<div class="col-md-3"></div>
-  <div class="col-md-6" id="searchformboxin">
+<div id="searchbox">
+<!-- <div class="" id="searchformbox"> -->
+  <div class="" id="searchformboxin">
         <form action="" name="homesearch" method="POST" onsubmit="">
             <div class="input-group">
                    <div class="input-group-btn search-panel">
@@ -153,9 +152,10 @@
     </div>
       </form>
   </div><!-- searchformboxin -->
-  <div class="col-md-3"></div>
+  <!-- <div class="col-md-3"></div> -->
 
-</div><!-- searchformbox -->
+<!-- </div> -->
+<!-- searchformbox -->
 </div>
 
 
