@@ -1,11 +1,11 @@
 <?php include 'header.php'; ?>
 <!-- Carousel Slider -->
-<div id="myCarousel" class="carousel slide">
+<div id="froomCarousel" class="carousel slide">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#froomCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#froomCarousel" data-slide-to="1"></li>
+        <li data-target="#froomCarousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
@@ -151,9 +151,6 @@
             </form>
             </div>
     </div>
-
-
-
       </form>
   </div><!-- searchformboxin -->
   <div class="col-md-3"></div>

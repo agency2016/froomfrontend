@@ -1,12 +1,14 @@
-html,
-body {
+html,body {
     height: 100%;
 }
-
+html{
+    min-height: 100%;
+}
 body {
     padding-top: 50px;
     overflow-y: scroll;
     font-family: Raleway;
+    margin-bottom: -60px;
 }
 a,a:hover{
     color: #e08026; 
@@ -306,63 +308,6 @@ a,a:hover{
 }
 
 
-/*FOOTER*/
-#footer-bottom {
-    background: rgb(54,54,54)  none repeat scroll 0% 0%;
-    color: #111;
-    font-size: 15px;
-    padding: 20px 0px;
-    margin-top: 20px;
-
-}
-
-#wrap {
-    min-height: 100%;
-    height: auto;
-    margin: 0 auto -60px;
-    padding: 0 0 60px;
-}
-
-
-.social-icons {
-    padding-left: 0px;
-    margin-bottom: 7px;
-    text-align: right;
-
-}
-
-.copy {
-    padding-top: 20px;
-    float: left;
-    color: #FFFFFF;
-}
-
-
-.social-roll {
-    border-radius: 12px;
-    height: 25px;
-    line-height: 26px;
-    width: 25px;
-    text-align: center;
-    background: #FFF none repeat scroll 0% 0%;
-    margin-top: 15px;
-    padding-top: 5px;
-
-}
-
-
-.tooltip-inner {
-    background-color: rgb(224,128,38);
-}
-.tooltip.top .tooltip-arrow { 
-    border-top-color:rgb(224,128,38); 
-}
-
-
-.silast{
-    padding-right: 15px;
-}
-
 
 
 
@@ -401,8 +346,9 @@ a,a:hover{
 }
 
 .credit-card-box .panel-title {
-    display: inline;
+    /*display: inline;*/
     font-weight: bold;
+    text-align: center;
 }
 .credit-card-box .form-control.error {
     border-color: red;
@@ -515,3 +461,63 @@ mazba
     padding-bottom: 30px;
 }
 /*end single_house*/
+
+
+
+/*FOOTER*/
+#footer-bottom {
+    background: rgb(54,54,54)  none repeat scroll 0% 0%;
+    color: #111;
+    font-size: 15px;
+    padding: 20px 0px;
+    margin-top: 15px;
+
+}
+
+#wrap {
+    min-height: 81%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+
+.social-icons {
+    padding-left: 0px;
+    margin-bottom: 7px;
+    text-align: right;
+
+}
+
+.copy {
+    padding-top: 20px;
+    float: left;
+    color: #FFFFFF;
+}
+
+
+.social-roll {
+    border-radius: 12px;
+    height: 25px;
+    line-height: 26px;
+    width: 25px;
+    text-align: center;
+    background: #FFF none repeat scroll 0% 0%;
+    margin-top: 15px;
+    padding-top: 5px;
+
+}
+
+
+.tooltip-inner {
+    background-color: rgb(224,128,38);
+}
+.tooltip.top .tooltip-arrow { 
+    border-top-color:rgb(224,128,38); 
+}
+
+
+.silast{
+    padding-right: 15px;
+}
+
