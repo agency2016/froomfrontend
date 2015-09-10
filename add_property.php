@@ -38,7 +38,7 @@
                             <form role="form"> 
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-8 col-md-8">
-                                        <label for="exampleInputEmail1">House Name</label>
+                                        <label for="exampleInputEmail1">Property Name</label>
                                         <div class="form-group">
                                             <input type="text" name="roperty_name" id="display_name" class="form-control" placeholder="Property Name" tabindex="3">
                                         </div>
@@ -51,7 +51,7 @@
                                     <div class="col-xs-12 col-sm-8 col-md-8">
                                         <label for="exampleInputEmail1">Address</label>
                                         <div class="form-group">
-                                            <textarea class="form-control" rows="5" placeholder="Current Address"></textarea>
+                                            <textarea class="form-control" rows="5" placeholder="Address"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-sm-4 col-md-4">
@@ -62,7 +62,7 @@
                                     <div class="col-xs-12 col-sm-8 col-md-8">
                                         <label for="exampleInputEmail1">Phone number</label>
                                         <div class="form-group">
-                                            <input type="number" name="price" class="form-control" placeholder="Zip code" tabindex="1">
+                                            <input type="number" name="price" class="form-control" placeholder="Phone number" tabindex="1">
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-sm-4 col-md-4">
@@ -119,7 +119,7 @@
                                         <label for="exampleInputEmail1">Catagorie</label>
                                         <div class="form-group">
                                             <select class="form-control input-sm">
-                                                <option selected>Current city</option>
+                                                <option selected>Catagorie</option>
                                                 <option value="" >kabalega</option>
                                                 <option value="" >labdanum DC</option>
                                                 <option value="" >Chian</option>
@@ -135,19 +135,19 @@
                                     <div class="col-xs-12 col-sm-4 col-md-4">
                                         <label for="exampleInputEmail1">Bed</label>
                                         <div class="form-group">
-                                            <input type="number" name="display_name" id="display_name" class="form-control" placeholder="Phone Number" tabindex="3">
+                                            <input type="number" name="display_name" id="display_name" class="form-control" placeholder="Number of bed" tabindex="3">
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-sm-4 col-md-4">
                                         <label for="exampleInputEmail1">Bath</label>
                                         <div class="form-group">
-                                            <input type="number" name="display_name" id="display_name" class="form-control" placeholder="Phone Number" tabindex="3">
+                                            <input type="number" name="display_name" id="display_name" class="form-control" placeholder="Number of bath" tabindex="3">
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-sm-4 col-md-4">
                                         <label for="exampleInputEmail1">Sq Ft</label>
                                         <div class="form-group">
-                                            <input type="number" name="display_name" id="display_name" class="form-control" placeholder="Phone Number" tabindex="3">
+                                            <input type="number" name="display_name" id="display_name" class="form-control" placeholder="Sq Ft" tabindex="3">
                                         </div>
                                     </div>
                                 </div>
@@ -155,7 +155,7 @@
                                     <div class="col-xs-12 col-sm-8 col-md-8">
                                         <label for="exampleInputEmail1">Price</label>
                                         <div class="form-group">
-                                            <input type="number" name="price" class="form-control" placeholder="Zip code" tabindex="1">
+                                            <input type="number" name="price" class="form-control" placeholder="Price" tabindex="1">
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-sm-4 col-md-4">
