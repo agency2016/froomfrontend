@@ -13,7 +13,7 @@
         <!-- You can make it whatever width you want. I'm making it full width
              on <= small devices and 4/12 page width on >= medium devices -->
         <div class="col-md-3"></div>
-        <div class="col-xs-12 col-md-6 creditcard">
+        <div class="col-xs-12 col-md-6 credit-card">
 
             <!-- CREDIT CARD FORM STARTS HERE -->
             <div class="panel panel-default credit-card-box">
