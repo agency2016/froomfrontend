@@ -13,17 +13,12 @@
         <!-- You can make it whatever width you want. I'm making it full width
              on <= small devices and 4/12 page width on >= medium devices -->
         <div class="col-md-3"></div>
-        <div class="col-xs-12 col-md-6 creditcard">
+        <div class="col-xs-12 col-md-6 credit-card">
 
             <!-- CREDIT CARD FORM STARTS HERE -->
             <div class="panel panel-default credit-card-box">
-                <div class="panel-heading display-table" >
-                    <div class="row display-tr" >
-                        <h3 class="panel-title display-td" >Payment Details</h3>
-                        <!-- <div class="display-td" >                            
-                            <img class="img-responsive pull-right" src="http://i76.imgup.net/accepted_c22e0.png">
-                        </div> -->
-                    </div>                    
+                <div class="panel-heading">
+                        <h3 class="panel-title" >Payment Details</h3>    
                 </div>
                 <div class="panel-body">
                     <form role="form" id="payment-form">
@@ -83,7 +78,7 @@
                         </div>
                         <div class="row">
                             <div class="col-xs-12">
-                                <button class="btn btn-success btn-lg btn-block" type="submit">Start Subscription</button>
+                                <button class="btn btn-warning btn-lg btn-block" type="submit">Start Subscription</button>
                             </div>
                         </div>
                         <div class="row" style="display:none;">

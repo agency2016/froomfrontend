@@ -32,10 +32,9 @@
 
 <!-- search n filter bar -->     
 
-<div class="container" id="searchbox">
-<div class="row" id="searchformbox">
-<div class="col-md-3"></div>
-  <div class="col-md-6" id="searchformboxin">
+<div id="searchbox">
+<!-- <div class="" id="searchformbox"> -->
+  <div class="" id="searchformboxin">
         <form action="" name="homesearch" method="POST" onsubmit="">
             <div class="input-group">
                    <div class="input-group-btn search-panel">
@@ -151,14 +150,12 @@
             </form>
             </div>
     </div>
-
-
-
       </form>
   </div><!-- searchformboxin -->
-  <div class="col-md-3"></div>
+  <!-- <div class="col-md-3"></div> -->
 
-</div><!-- searchformbox -->
+<!-- </div> -->
+<!-- searchformbox -->
 </div>
 
 

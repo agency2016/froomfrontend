@@ -24,7 +24,6 @@
 
     <!-- CUSTOM JS -->
     <script type="text/javascript" src="js/froom.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
     </body>
 
 </html>
