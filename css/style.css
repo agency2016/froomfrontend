@@ -397,7 +397,7 @@ a,a:hover{
 /*CREDIT CARD*/
 
 .credit-card{
-margin-top: 50px;
+    margin-top: 50px;
 }
 
 .credit-card-box .panel-title {
@@ -410,16 +410,16 @@ margin-top: 50px;
     box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
 }
 .credit-card-box label.error {
-  font-weight: bold;
-  color: red;
-  padding: 2px 8px;
-  margin-top: 2px;
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
 }
 .credit-card-box .payment-errors {
-  font-weight: bold;
-  color: red;
-  padding: 2px 8px;
-  margin-top: 2px;
+    font-weight: bold;
+    color: red;
+    padding: 2px 8px;
+    margin-top: 2px;
 }
 .credit-card-box label {
     display: block;
@@ -447,11 +447,24 @@ margin-top: 50px;
 mazba
 */
 
+.froom_form_bg_color{
+    margin-bottom: 20px;
+    background-color: #FFF;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05);
+}
+.froom_txt_bg_color{
+    background-color: #f1c69e;
+    box-shadow: 0px 0px 10px 0px #efbf92;
+    margin-bottom: 50px;
+}
+
+.nav_toggle_bg_color{
+    background-color: #ecb27c;
+}
 .nav_side_txt_color{
     color: #FFF;
-}
-.froom_form_bg_color{
-    background-color: #ecb27c;
 }
 .search_button_place{
     padding-bottom: 20px; padding-right: 30px; float: right;
@@ -461,11 +474,6 @@ mazba
     padding-right: 20px;
     overflow:scroll;
 }    
-.froom_txt_bg_color{
-    background-color: #f1c69e;
-    box-shadow: 0px 0px 10px 0px #efbf92;
-    margin-bottom: 50px;
-}
 .house_photo{
     /*padding: 22px 0px 10px 8px;*/
     margin-top: 20px;
