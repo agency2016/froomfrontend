@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<div class="container-fluid froom_form_bg_color">
+<div class="container-fluid nav_toggle_bg_color">
     <form role="form">
         <!--visible portion-->
         <div class="row">

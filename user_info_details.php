@@ -10,6 +10,9 @@
                             <li>
                                 <a href="user_info_dashboard.php" class="nav_side_txt_color"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                             </li>
+                            <li>
+                                <a href="add_property.php" class="nav_side_txt_color"><i class="fa fa-plus fa-fw"></i> Add Property</a>
+                            </li>
                             <!--                            <li>
                                                             <a href="index.html"><i class="fa fa-envelope fa-fw"></i> Message <span class="badge" style="float: right;">10</span></a>
                                                         </li>-->
@@ -89,8 +92,8 @@
                                     <td>Nov 7, 20015 at: 6:30pm</td>
                                     <td></td>
                                 </tr>
-                                
-                                
+
+
                             </table>
                         </div>  
                     </div>
