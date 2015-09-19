@@ -43,7 +43,7 @@ if (isset($_FILES['file'])) {
             if ($file_error === 0) {
                 if ($file_size <= 5000000) {
                         $file_name_new     =  $file_fname . uniqid('',true) . '.' . $file_ext;
-                        $file_name_new    =  uniqid('',true) . '.' . $file_ext;
+                        $file_name_new    =  uniqid('delta',true) . '.' . $file_ext;
                         $file_destination =  'upload/' . $file_name_new;
                         // echo $file_destination;
                         if (move_uploaded_file($file_tmp, $file_destination)) {
